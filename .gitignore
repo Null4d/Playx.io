@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Build files
+build/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Coverage directory (if using tests)
+coverage/
