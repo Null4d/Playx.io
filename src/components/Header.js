@@ -1,4 +1,6 @@
-import logo from '../logo.svg';
+import logo from '../img/logo/logo2_00000.png';
+import search from '../img/icons/search.png';
+
 
 function Header() {
     return (
@@ -6,19 +8,18 @@ function Header() {
             <div className="header">
                 <div id="stick-header"
                     className="tg-header__area bg-black transparent-header fixed w-full z-[9] h-auto left-0 top-0 transition-all duration-[0.4s] ease-[ease] px-0 py-[11px] lg:py-[25px] md:py-[25px] sm:py-[25px] xsm:py-[25px] flex justify-center">
-                    <div className="container custom-container">
+                    <div className="container">
                         <div className="flex flex-wrap mx-[-15px]">
                             <div className="w-full basis-full relative px-[15px]">
-                                <div className="tgmenu__wrap">
-                                    <nav
-                                        className="tgmenu__nav  flex items-center flex-wrap justify-start lg:justify-between md:justify-between">
+                                <div className="header-menu">
+                                    <nav className="header-menu flex items-center flex-wrap justify-start lg:justify-between md:justify-between">
                                         <div className="logo flex items-center">
                                             <a className="inline-block" href="index.html">
-                                                <img className='w-24' src={logo} alt="logo" />
+                                                <img className='w-28' src={logo} alt="logo" />
                                             </a>
                                         </div>
 
-                                        <div className="tgmenu__navbar-wrap tgmenu__main-menu flex grow">
+                                        <div className="header-menu navbar-wrap tgmenu__main-menu flex grow">
                                             <ul
                                                 className="navigation flex flex-row flex-wrap ml-[122px] mr-auto my-0 p-0 xl:flex xl:ml-[65px]  xl:mr-auto  xl:my-0">
                                                 <li
@@ -66,7 +67,7 @@ function Header() {
                                             <ul className="list-wrap m-0 p-0  flex items-center ml-2.5">
                                                 <li className="search relative ml-0">
                                                     <a className="block text-[20px] hover:text-[#45f882] text-[#fff]" href="#section">
-                                                        {/* <img className="w-4" src="img/icons/search.png" alt=""> */}
+                                                    <img className='w-5' src={search} alt="logo" />
                                                     </a>
                                                 </li>
                                                 <li className="header-btn relative ml-[25px] pl-[25px] before:content-[''] before:absolute before:-translate-y-2/4 before:w-1.5 before:h-7 before:bg-[#131b22] before:shadow-[inset_0px_3px_7px_0px_rgba(0,0,0,0.61)] before:left-0 before:top-2/4
@@ -77,7 +78,7 @@ function Header() {
                                         ">
                                                     <a className="tg-border-btn text-[#fff] font-bold" href="#section">
                                                         <i className="flaticon-edit">
-                                                            {/* <img src="" alt=""> */}
+                                                            
                                                         </i>
                                                         ~SIGN IN
                                                     </a>
