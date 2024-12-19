@@ -7,7 +7,7 @@ function Header() {
         <>
             <div className="header">
                 <div id="stick-header"
-                    className="tg-header__area bg-black transparent-header fixed w-full z-[9] h-auto left-0 top-0 transition-all duration-[0.4s] ease-[ease] px-0 py-[11px] lg:py-[25px] md:py-[25px] sm:py-[25px] xsm:py-[25px] flex justify-center">
+                    className="tg-header__area transparent-header fixed w-full z-[9] h-auto left-0 top-0 transition-all duration-[0.4s] ease-[ease] px-0 py-[11px] lg:py-[25px] md:py-[25px] sm:py-[25px] xsm:py-[25px] flex justify-center">
                     <div className="container">
                         <div className="flex flex-wrap mx-[-15px]">
                             <div className="w-full basis-full relative px-[15px]">

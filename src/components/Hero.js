@@ -4,7 +4,7 @@ import heroİmg from '../img/slider/slider_img01.png';
 function Hero() {
   return (
     <>
-      <section className="slider__area slider__bg bg-center bg-cover z-[1] pt-[158px] pb-[54px] px-0 relative ">
+      <section className="slider__area slider__bg bg-center bg-cover z-[1] pt-[158px] pb-[54px] px-0 relative bg-[url('/src/img/slider/slider_bg.jpg')]">
         <div className="hero-container max-w-screen-2xl mx-auto h-full">
           <div className="flex flex-wrap mx-[-15px] justify-between">
             <div className="w-6/12 basis-6/12 xxl:w-6/12 xxl:basis-6/12 xl:w-6/12 xl:basis-6/12 lg:w-6/12 lg:basis-6/12 md:w-full md:basis-full sm:w-full sm:basis-full  xsm:w-full xsm:basis-full relative px-[15px]">
@@ -17,7 +17,7 @@ function Hero() {
                   STEAMING
                 </h2>
 
-                <p className="text-[26px] text-black uppercase font-bold tracking-[5px] leading-[1.4] text-[#fff] m-0 wow fadeInUp md:text-2xl lg:text-[22px] sm:text-xl sm:tracking-[3px] xsm:text-xl xsm:tracking-[3px]">
+                <p className="text-[26px] uppercase font-bold tracking-[5px] leading-[1.4] text-[#fff] m-0 wow fadeInUp md:text-2xl lg:text-[22px] sm:text-xl sm:tracking-[3px] xsm:text-xl xsm:tracking-[3px]">
                   VIDEO GAMES ONLINE
                 </p>
 
