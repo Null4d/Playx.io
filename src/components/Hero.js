@@ -21,9 +21,13 @@ function Hero() {
                   VIDEO GAMES ONLINE
                 </p>
 
-                <div className="hero__btn mt-[33px] mb-0 mx-0 wow fadeInUp" data-wow-delay="1.2s" style={{ visibility: "visible", animationDelay: "1.2s", animationName: "fadeInUp", }}>
-                  <a className="tg-btn-1 text-white px-[49px] py-[15px]" href="#b">
-                    <p>CONTACT US</p>
+                <div className="hero__btn mt-[33px] mb-0 mx-0 wow fadeInUp" data-wow-delay="1.2s">
+                  <a className="tg-btn-1 group/greenBtn text-white px-[49px] py-[15px] relative z-1 inline-flex min-w-195px justify-center overflow-hidden px-49px py-0-875 text-center text-sm font-extrabold uppercase tracking-wide 
+                  before:absolute before:left-0 before:top-2/4 before:z-1 before:h-[calc(100%+6px)] before:w-30px before:-translate-y-2/4 before:bg-white-arrow before:bg-cover before:bg-center before:bg-no-repeat 
+                  after:absolute after:right-0 after:top-2/4 after:z-1 after:h-[calc(100%+6px)] after:w-30px after:-translate-y-2/4 after:bg-white-arrow after:bg-cover after:bg-center after:bg-no-repeat after:-rotate-180 
+                  "href="#b">    
+                    <p className="text-black after:absolute after:left-0 after:top-0 after:z-minus-1 after:h-full after:w-full after:border-t-2 after:border-b-2 after:border-solid after:border-y-white 
+                    after:bg-green after:transition-all after:delay-0 after:duration-150 after:ease-out after:[clip-path:polygon(28px_0,calc(85%+2px)_0,100%_50%,calc(85%+1px)_100%,28px_100%,0%_50%)] after:group-hover/greenBtn:bg-white">CONTACT US</p> 
                   </a>
                 </div>
 
