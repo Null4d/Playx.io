@@ -9,8 +9,9 @@ module.exports = {
 
       minWidth: {
         '195px': '195px',
+        '100px': '100px',
       },
-      
+
       padding: {
         '49px': '49px',
         '0.875': '0.875rem',
@@ -22,19 +23,39 @@ module.exports = {
 
       backgroundImage: {
         'white-arrow': "url('./img/icons/white.svg')",
-      },
-
-      zIndex: {
-        'minus-1': '-1',
+        'green-around': "url('./img/icons/header-icon-bg.svg')",
       },
 
       colors: {
         'green': '#45f882',
       },
 
-      // transitionDuration: {
-      //   '0.3s': '0.3',
-      // }
+      zIndex: {
+        '3': '3',
+        '2': '2',
+        '1': '1',
+        'minus-1': '-1',
+      },
+      
+      transitionDuration: {
+        '100': '100ms',
+      },
+
+      margin: {
+        'minus-15px': '-15px',
+      },
+
+      padding: {
+        '15px': '15px',
+      },
+
+      maxWidth: {
+        '1375px': '1375px',
+      },
+
+      fontSize: {
+        '150px': '150px',
+      }
     },
   },
   plugins: [],

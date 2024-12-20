@@ -12,3 +12,8 @@
 
     font-style: normal;
 }
+
+
+.brand-opacity:hover> :not(:hover) {
+    opacity: 0.5;
+}
