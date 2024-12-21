@@ -36,7 +36,7 @@ module.exports = {
         '1': '1',
         'minus-1': '-1',
       },
-      
+
       transitionDuration: {
         '100': '100ms',
       },
@@ -56,6 +56,15 @@ module.exports = {
       fontSize: {
         '150px': '150px',
       }
+    },
+    screens: {
+      sm: '432px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      'lm': '992px',
+      'mcc': '1200px',
+      '2xl': '1536px',
     },
   },
   plugins: [],

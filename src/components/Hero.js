@@ -7,24 +7,24 @@ import brand3 from '../img/brand/brand_logo03.png';
 function Hero() {
   return (
     <>
-      <section className="min-h-screen bg-center bg-cover pt-40 pb-14 px-0 relative bg-[url('/src/img/slider/slider_bg.jpg')]">
+      <section className="min-h-screen bg-center bg-cover pt-2 lm:pt-40 pb-14 px-0 relative bg-[url('/src/img/slider/slider_bg.jpg')]">
         <div className="relative h-full mx-auto max-w-screen-2xl">
-          <div className="flex flex-wrap mx-[-15px] justify-between">
-            <div className="relative w-6/12 px-4 basis-6/12">
-              <div className="relative mb-0 ml-10 mr-0 z-2 mt-36">
-                <h6 className="leading-none font-bold tracking-normal text-xl text-green relative mt-0 mb-5 mx-0 pl-5 pr-0 py-4 before:content-[''] before:absolute before:bg-[url('/src/img/bg/text_gradient_bg.png')] before:w-full before:h-full before:bg-no-repeat before:z-[-1] before:opacity-[0.28] before:left-0 before:top-0 font-Poppins">
+          <div className="flex flex-col justify-center lm:flex-row lm:justify-between flex-wrap mx-[-15px] ">
+            <div className="relative flex justify-center w-full px-4 lm:flex-row lm:w-6/12 basis-6/12 lm:justify-normal">
+              <div className="relative mt-32 mb-0 ml-0 mr-0 lm:ml-14 lg:ml-28 2xl:ml-10 z-2">
+                <h6 className="leading-none font-bold tracking-normal text-xl text-green text-center lm:text-start relative mt-0 mb-5 mx-0 pr-0 py-4 before:content-[''] before:absolute before:bg-[url('/src/img/bg/text_gradient_bg.png')] before:w-full before:h-full before:bg-no-repeat before:z-[-1] before:opacity-[0.28] before:left-24 before:sm:left-48 before:lm:left-0 before:top-0 font-Poppins">
                   LIVE GAMING
                 </h6>
 
-                <h2 className="leading-none text-white text-150px mt-0 mb-6 mx-0 font-berlin drop-shadow-[-1px_5px_0px_rgba(69,248,130,0.66)]">
+                <h2 className="leading-none text-white text-center lm:text-start text-6xl sm:text-8xl 2xl:text-150px mt-0 mb-6 mx-0 font-berlin drop-shadow-[-1px_5px_0px_rgba(69,248,130,0.66)]">
                   STEAMING
                 </h2>
 
-                <p className="text-[26px] uppercase font-bold text-white m-0">
+                <p className="m-0 text-2xl font-bold text-center text-white uppercase sm:text-3xl lm:text-start">
                   VIDEO GAMES ONLINE
                 </p>
 
-                <div className="mt-[33px] mb-0 mx-0">
+                <div className="mt-[33px] text-center lm:text-left mb-0 mx-0">
                   <a className="tg-btn-1 group/greenBtn text-white px-12 py-4 relative z-1 inline-flex min-w-195px justify-center overflow-hidden px-49px py-0-875 text-center text-sm font-extrabold uppercase tracking-wide 
                   before:absolute before:left-0 before:top-2/4 before:z-1 before:h-[calc(100%+6px)] before:w-30px before:-translate-y-2/4 before:bg-white-arrow before:bg-cover before:bg-center before:bg-no-repeat 
                   after:absolute after:right-0 after:top-2/4 after:z-1 after:h-[calc(100%+6px)] after:w-30px after:-translate-y-2/4 after:bg-white-arrow after:bg-cover after:bg-center after:bg-no-repeat after:-rotate-180 
@@ -36,7 +36,7 @@ function Hero() {
                   </a>
                 </div>
 
-                <ul className="flex flex-wrap items-center justify-end w-full gap-16 mt-44 brand-opacity list-wrap ">
+                <ul className="flex items-center justify-end w-full gap-8 sm:gap-16 mt-44 brand-opacity list-wrap ">
                   <li className="list-none duration-200">
                     <a className="block" href="#b">
                       <img src={brand1} alt="brand1" />
@@ -58,9 +58,9 @@ function Hero() {
               </div>
             </div>
 
-            <div className="w-6/12 basis-6/12 ">
+            <div className="order-1 w-full sm:order-0 basis-6/12 lm:w-6/12">
               <div className="">
-                <img className='max-w-full mx-auto my-0' src={heroİmg} alt="heroİmg" />
+                <img className='mx-auto my-0 mt-40 max-w-96 lm:mt-0 sm:max-w-lg lm:max-w-lg-0 2xl:max-w-full ' src={heroİmg} alt="heroİmg" />
               </div>
             </div>
 

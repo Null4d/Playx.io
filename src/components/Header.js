@@ -11,7 +11,7 @@ function Header() {
                         <div className="flex flex-wrap mx-minus-15px">
                             <div className="relative w-full basis-full px-15">
                                 <div className="header-menu">
-                                    <nav className="flex flex-wrap items-center justify-start ">
+                                    <nav className="flex flex-wrap items-center justify-start px-12 sm:px-24 lm:px-0">
                                         <div className="flex items-center">
                                             <a className="inline-block" href="index.html">
                                                 <img className='w-56' src={logo} alt="logo" />
@@ -19,7 +19,7 @@ function Header() {
                                         </div>
 
                                         <div className="flex navbar-wrap grow">
-                                            <ul className="flex flex-row flex-wrap p-0 my-0 mr-auto navigation ml-28">
+                                            <ul className="flex-row flex-wrap hidden p-0 my-0 mr-auto navigation mcc:flex xl:ml-16 2xl:ml-28">
                                                 <li className="relative block list-none group">
                                                     <a className="text-base font-bold uppercase block leading-none relative tracking-[0.8px] z-3 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:transition-all before:duration-150 before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green text-green before:opacity-100 before:-translate-y-2/4 before:rotate-[-40deg]"
                                                         href="#section">
@@ -62,14 +62,14 @@ function Header() {
 
                                         <div className="block">
                                             <ul className="list-wrap m-0 p-0  flex items-center ml-2.5">
-                                                <li className="relative ml-0 search">
+                                                <li className="relative hidden ml-0 search md:flex">
                                                     <a className="block text-xl text-white hover:text-white" href="#section">
                                                         <img className='w-5' src={search} alt="logo" />
                                                     </a>
                                                 </li>
-                                                <li className="relative ml-6 pl-[25px] before:content-[''] before:absolute before:-translate-y-2/4 before:w-1.5 before:h-7 before:bg-[#131b22] before:shadow-[inset_0px_3px_7px_0px_rgba(0,0,0,0.61)] before:left-0 before:top-2/4">
+                                                <li className="relative ml-6 pl-[25px] before:content-[''] before:absolute before:-translate-y-2/4 before:w-1.5 before:h-7 before:bg-[#131b22] before:shadow-[inset_0px_3px_7px_0px_rgba(0,0,0,0.61)] before:left-0 before:top-2/4 hidden md:flex">
                                                     <a className='text-white' href='#b'>
-                                                    ~SIGN IN
+                                                        ~SIGN IN
                                                     </a>
                                                 </li>
                                                 <li
