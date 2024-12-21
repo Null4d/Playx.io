@@ -12,7 +12,7 @@ function Hero() {
           <div className="flex flex-col justify-center lm:flex-row lm:justify-between flex-wrap mx-[-15px] ">
             <div className="relative flex justify-center w-full px-4 lm:flex-row lm:w-6/12 basis-6/12 lm:justify-normal">
               <div className="relative mt-32 mb-0 ml-0 mr-0 lm:ml-14 lg:ml-28 2xl:ml-10 z-2">
-                <h6 className="leading-none font-bold tracking-normal text-xl text-green text-center lm:text-start relative mt-0 mb-5 mx-0 pr-0 py-4 before:content-[''] before:absolute before:bg-[url('/src/img/bg/text_gradient_bg.png')] before:w-full before:h-full before:bg-no-repeat before:z-[-1] before:opacity-[0.28] before:left-24 before:sm:left-48 before:lm:left-0 before:top-0 font-Poppins">
+                <h6 className="leading-none font-bold tracking-normal text-xl text-green text-center lm:text-start relative mt-0 mb-5 mx-0 pr-0 py-4 before:content-[''] before:absolute before:bg-[url('/src/img/bg/text_gradient_bg.png')] before:w-full before:h-full before:bg-no-repeat before:z-minus-1 before:opacity-30 before:left-24 before:sm:left-48 before:lm:left-0 before:top-0 font-Poppins">
                   LIVE GAMING
                 </h6>
 
@@ -24,7 +24,7 @@ function Hero() {
                   VIDEO GAMES ONLINE
                 </p>
 
-                <div className="mt-[33px] text-center lm:text-left mb-0 mx-0">
+                <div className="mx-0 mt-8 mb-0 text-center lm:text-left">
                   <a className="tg-btn-1 group/greenBtn text-white px-12 py-4 relative z-1 inline-flex min-w-195px justify-center overflow-hidden px-49px py-0-875 text-center text-sm font-extrabold uppercase tracking-wide 
                   before:absolute before:left-0 before:top-2/4 before:z-1 before:h-[calc(100%+6px)] before:w-30px before:-translate-y-2/4 before:bg-white-arrow before:bg-cover before:bg-center before:bg-no-repeat 
                   after:absolute after:right-0 after:top-2/4 after:z-1 after:h-[calc(100%+6px)] after:w-30px after:-translate-y-2/4 after:bg-white-arrow after:bg-cover after:bg-center after:bg-no-repeat after:-rotate-180 
