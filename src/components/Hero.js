@@ -9,10 +9,10 @@ function Hero() {
     <>
       <section className="min-h-screen bg-center bg-cover pt-2 lm:pt-40 pb-14 px-0 relative bg-[url('/src/img/slider/slider_bg.jpg')]">
         <div className="relative h-full mx-auto max-w-screen-2xl">
-          <div className="flex flex-col justify-center lm:flex-row lm:justify-between flex-wrap mx-[-15px] ">
+          <div className="flex flex-col lm:flex-row lm:justify-between flex-wrap px-[-15px] w-full">
             <div className="relative flex justify-center w-full px-4 lm:flex-row lm:w-6/12 basis-6/12 lm:justify-normal">
-              <div className="relative mt-32 mb-0 ml-0 mr-0 lm:ml-14 lg:ml-28 2xl:ml-10 z-2">
-                <h6 className="leading-none font-bold tracking-normal text-xl text-green text-center lm:text-start relative mt-0 mb-5 mx-0 pr-0 py-4 before:content-[''] before:absolute before:bg-[url('/src/img/bg/text_gradient_bg.png')] before:w-full before:h-full before:bg-no-repeat before:z-minus-1 before:opacity-30 before:left-24 before:sm:left-48 before:lm:left-0 before:top-0 font-Poppins">
+              <div className="relative flex flex-col w-full mt-32 mb-0 ml-0 mr-0 lm:ml-14 lg:ml-28 2xl:ml-10 z-2">
+                <h6 className="py-3 pl-4 pr-20 mb-4 ml-auto mr-auto text-xl font-bold tracking-widest lm:ml-0 text-green bg-gradient-to-r from-green/35 rounded-l-md">
                   LIVE GAMING
                 </h6>
 
@@ -36,7 +36,19 @@ function Hero() {
                   </a>
                 </div>
 
-                <ul className="flex items-center justify-end w-full gap-8 sm:gap-16 mt-44 brand-opacity list-wrap ">
+              </div>
+            </div>
+
+            <div className="order-1 w-full sm:order-0 basis-6/12 lm:w-6/12">
+              <div className="">
+                <img className='mx-auto my-0 mt-16 lm:mt-0 max-w-96 sm:max-w-lg lm:max-w-lg-0 2xl:max-w-full ' src={heroİmg} alt="heroİmg" />
+              </div>
+            </div>
+            
+
+          </div>
+          
+          <ul className="flex items-center justify-center w-full gap-8 px-4 lm:pl-32 lm:absolute bottom-32 lm:justify-start sm:gap-16 brand-opacity list-wrap ">
                   <li className="list-none duration-200">
                     <a className="block" href="#b">
                       <img src={brand1} alt="brand1" />
@@ -55,17 +67,6 @@ function Hero() {
                     </a>
                   </li>
                 </ul>
-              </div>
-            </div>
-
-            <div className="order-1 w-full sm:order-0 basis-6/12 lm:w-6/12">
-              <div className="">
-                <img className='mx-auto my-0 mt-40 max-w-96 lm:mt-0 sm:max-w-lg lm:max-w-lg-0 2xl:max-w-full ' src={heroİmg} alt="heroİmg" />
-              </div>
-            </div>
-
-          </div>
-
         </div>
       </section >
     </>

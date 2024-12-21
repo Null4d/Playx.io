@@ -7,18 +7,17 @@ function Header() {
         <>
             <div className="header">
                 <div id="header" className="absolute flex justify-center w-full h-auto px-0 transition-all duration-100 z-3 ">
-                    <div className="container">
-                        <div className="flex flex-wrap mx-minus-15px">
-                            <div className="relative w-full basis-full px-15">
+                        <div className="flex flex-wrap w-full mx-minus-15px">
+                            <div className="relative w-full px-5 mx-auto max-w-screen-2xl basis-full">
                                 <div className="header-menu">
-                                    <nav className="flex flex-wrap items-center justify-start px-12 sm:px-24 lm:px-0">
+                                    <nav className="flex flex-wrap items-center justify-start w-full">
                                         <div className="flex items-center">
                                             <a className="inline-block" href="index.html">
                                                 <img className='w-56' src={logo} alt="logo" />
                                             </a>
                                         </div>
 
-                                        <div className="flex navbar-wrap grow">
+                                        <div className="flex navbar-wrap grow"> 
                                             <ul className="flex-row flex-wrap hidden p-0 my-0 mr-auto navigation mcc:flex xl:ml-16 2xl:ml-28">
                                                 <li className="relative block list-none group">
                                                     <a className="text-base font-bold uppercase block leading-none relative tracking-[0.8px] z-3 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:transition-all before:duration-150 before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green text-green before:opacity-100 before:-translate-y-2/4 before:rotate-[-40deg]"
@@ -60,7 +59,7 @@ function Header() {
                                             </ul>
                                         </div>
 
-                                        <div className="block">
+                                        <div className="block ml-auto">
                                             <ul className="list-wrap m-0 p-0  flex items-center ml-2.5">
                                                 <li className="relative hidden ml-0 search md:flex">
                                                     <a className="block text-xl text-white hover:text-white" href="#section">
@@ -87,7 +86,6 @@ function Header() {
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </>
