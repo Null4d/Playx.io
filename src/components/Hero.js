@@ -36,7 +36,7 @@ function Hero() {
                   </a>
                 </div>
 
-                <ul className="flex flex-wrap items-center w-full gap-16 mt-40 brand-opacity list-wrap ">
+                <ul className="flex flex-wrap items-center justify-end w-full gap-16 mt-44 brand-opacity list-wrap ">
                   <li className="list-none duration-200">
                     <a className="block" href="#b">
                       <img src={brand1} alt="brand1" />
