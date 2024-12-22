@@ -67,7 +67,7 @@ function Header() {
                                                     </a>
                                                 </li>
                                                 <li className="relative ml-6 pl-[25px] before:content-[''] before:absolute before:-translate-y-2/4 before:w-1.5 before:h-7 before:bg-[#131b22] before:shadow-[inset_0px_3px_7px_0px_rgba(0,0,0,0.61)] before:left-0 before:top-2/4 hidden md:flex">
-                                                    <a className='text-white' href='#b'>
+                                                    <a className='font-bold text-white' href='#b'>
                                                         ~SIGN IN
                                                     </a>
                                                 </li>
