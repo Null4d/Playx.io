@@ -7,11 +7,11 @@ import nftAvatar from '../img/nft/nft_avatar01.png';
 function NftItems() {
   return (
     <>
-      <section className="px-0 pt-24 pb-20 bg-customDark">
-        <div className="flex flex-wrap justify-center mx-minus-15px">
+      <section className="flex justify-center px-0 pt-24 pb-20 bg-customDark">
+        <div className="flex flex-wrap justify-center w-full mx-minus-15px">
           <div className="relative px-4 w-4\/12 basis-4\/12">
-            <div className="flex items-end p-6 pr-20 mx-0 mt-0 mb-8 transition-all duration-150 border border-transparent rounded-xl bg-slate-900 bg-custom-gradient hover:border-emerald-800">
-              <div className="mr-6 max-w-48">
+            <div className="flex flex-col items-end p-8 pr-8 mx-0 mt-0 mb-8 transition-all duration-150 border border-transparent sm:p-6 sm:pr-20 sm:flex-row rounded-8px rounded-xl bg-slate-900 bg-custom-gradient hover:border-emerald-800">
+              <div className="mx-auto sm:mr-6 max-w-48">
                 <a className="" href="#b">
                   <img className='rounded-lg' src={nft1} alt="nft1" />
                 </a>
@@ -19,7 +19,7 @@ function NftItems() {
               {/* Nft Img */}
 
               <div className="nft_item">
-                <h4 className="mx-0 mt-0 mb-4 text-xl font-bold tracking-wider text-white title">
+                <h4 className="mx-0 mt-2 mb-4 text-lg font-bold tracking-wider text-center text-white sm:text-lg sm:mt-0 title">
                   <a className="" href="#b">WOLF GAMING ART</a>
                 </h4>
                 {/* Nft Title */}
@@ -43,7 +43,7 @@ function NftItems() {
                 </div>
                 {/* Nft Mini Avatar */}
 
-                <div className="flex items-center mr-minus-45px bg-custom-gradientTwo border border-gray-800 pl-5 pr-4 py-3.5 rounded-lg ">
+                <div className="flex items-center mr-0 sm:mr-minus-45px bg-custom-gradientTwo border border-gray-800 pl-5 pr-4 py-3.5 rounded-lg ">
                   <p className="m-0 text-base font-semibold text-slate-100 font-Barlow">
                     1.002
                     <span className="ml-1 text-lg font-bold uppercase currency text-amber-400">
@@ -64,16 +64,16 @@ function NftItems() {
           {/* Nft Box */}
 
           <div className="relative px-4 w-4\/12 basis-4\/12">
-            <div className="flex items-end p-6 pr-20 mx-0 mt-0 mb-8 transition-all duration-150 border border-transparent rounded-xl bg-slate-900 bg-custom-gradient hover:border-emerald-800">
-              <div className="mr-6 max-w-48">
+            <div className="flex flex-col items-end p-8 pr-8 mx-0 mt-0 mb-8 transition-all duration-150 border border-transparent sm:p-6 sm:pr-20 sm:flex-row rounded-8px rounded-xl bg-slate-900 bg-custom-gradient hover:border-emerald-800">
+              <div className="mx-auto sm:mr-6 max-w-48">
                 <a className="" href="#b">
                   <img className='rounded-lg' src={nft2} alt="nft1" />
                 </a>
               </div>
               {/* Nft Img */}
 
-              <div className="nft_item">
-                <h4 className="mx-0 mt-0 mb-4 text-xl font-bold tracking-wider text-white title">
+              <div className="">
+                <h4 className="mx-0 mt-2 mb-4 text-lg font-bold tracking-wider text-center text-white sm:text-lg sm:mt-0 title">
                   <a className="" href="#b">FOREST PRINCESS</a>
                 </h4>
                 {/* Nft Title */}
@@ -97,7 +97,7 @@ function NftItems() {
                 </div>
                 {/* Nft Mini Avatar */}
 
-                <div className="flex items-center mr-minus-45px bg-custom-gradientTwo border border-gray-800 pl-5 pr-4 py-3.5 rounded-lg ">
+                <div className="flex items-center mr-0 sm:mr-minus-45px bg-custom-gradientTwo border border-gray-800 pl-5 pr-4 py-3.5 rounded-lg ">
                   <p className="m-0 text-base font-semibold text-slate-100 font-Barlow">
                     1.053
                     <span className="ml-1 text-lg font-bold uppercase currency text-amber-400">
@@ -111,15 +111,14 @@ function NftItems() {
                 </div>
                 {/* Nft Button */}
               </div>
-
-
+                {/* Nft Item */}
             </div>
           </div>
           {/* Nft Box */}
 
           <div className="relative px-4 w-4\/12 basis-4\/12">
-            <div className="flex items-end p-6 pr-20 mx-0 mt-0 mb-8 transition-all duration-150 border border-transparent rounded-xl bg-slate-900 bg-custom-gradient hover:border-emerald-800">
-              <div className="mr-6 max-w-48">
+            <div className="flex flex-col items-end p-8 pr-8 mx-0 mt-0 mb-8 transition-all duration-150 border border-transparent sm:p-6 sm:pr-20 sm:flex-row rounded-8px rounded-xl bg-slate-900 bg-custom-gradient hover:border-emerald-800">
+              <div className="mx-auto sm:mr-6 max-w-48">
                 <a className="" href="#b">
                   <img className='rounded-lg' src={nft3} alt="nft1" />
                 </a>
@@ -127,7 +126,7 @@ function NftItems() {
               {/* Nft Img */}
 
               <div className="nft_item">
-                <h4 className="mx-0 mt-0 mb-4 text-xl font-bold tracking-wider text-white title">
+                <h4 className="mx-0 mt-2 mb-4 text-lg font-bold tracking-wider text-center text-white sm:text-lg sm:mt-0 title">
                   <a className="" href="#b">GIRL FIREFLY ART</a>
                 </h4>
                 {/* Nft Title */}
@@ -151,7 +150,7 @@ function NftItems() {
                 </div>
                 {/* Nft Mini Avatar */}
 
-                <div className="flex items-center mr-minus-45px bg-custom-gradientTwo border border-gray-800 pl-5 pr-4 py-3.5 rounded-lg ">
+                <div className="flex items-center mr-0 sm:mr-minus-45px bg-custom-gradientTwo border border-gray-800 pl-5 pr-4 py-3.5 rounded-lg ">
                   <p className="m-0 text-base font-semibold text-slate-100 font-Barlow">
                     1.024
                     <span className="ml-1 text-lg font-bold uppercase currency text-amber-400">

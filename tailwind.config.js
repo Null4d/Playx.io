@@ -20,7 +20,12 @@ module.exports = {
       width: {
         '30px': '30px',
         '88px': '88px',
-        '735px': '735px',
+        '550px': '550px',
+        '400px': '400px',
+        '570px': '570px',
+        '780px': '780px',
+        '815px': '815px',
+        '28': '28rem',
         '30%': '30.333%',
       },
 
@@ -61,6 +66,8 @@ module.exports = {
 
       maxWidth: {
         '1375px': '1375px',
+        '1536px': '1536px',
+        '700px': '700px',
       },
 
       fontSize: {
