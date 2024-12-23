@@ -19,6 +19,13 @@ module.exports = {
 
       width: {
         '30px': '30px',
+        '88px': '88px',
+        '735px': '735px',
+        '30%': '30.333%',
+      },
+
+      height: {
+        '88px': '88px',
       },
 
       backgroundImage: {
@@ -79,9 +86,10 @@ module.exports = {
       'arrow-icon': '"\\f30b"',
     },
 
-    // flexBasis: {
-    //   '1/7': '14.2857143%',
-    // },
+    borderRadius: {
+      '50%': '50%',
+      '8px': '8px',
+    }
   },
   plugins: [],
 }
