@@ -19,7 +19,7 @@ module.exports = {
 
       width: {
         '30px': '30px',
-        '88px': '88px',
+        '85px': '85px',
         '550px': '550px',
         '400px': '400px',
         '570px': '570px',
@@ -30,7 +30,7 @@ module.exports = {
       },
 
       height: {
-        '88px': '88px',
+        '84px': '84px',
       },
 
       backgroundImage: {
@@ -40,7 +40,7 @@ module.exports = {
 
       colors: {
         'green': '#45f882',
-        'customDark': 'rgb(11 14 19)',
+        'customDark': '#0b0e13',
       },
 
       zIndex: {
@@ -84,10 +84,10 @@ module.exports = {
       '2xl': '1536px',
     },
 
-    backgroundImage: {
-      'custom-gradient': 'linear-gradient(0deg, #0c0e12 0%, rgba(31, 41, 53, 0.36078) 100%)',
-      'custom-gradientTwo': 'linear-gradient(0deg,rgb(12,14,18)_0%,rgb(16,24,31)_100%)',                
-    },
+    // backgroundImage: {
+    //   'custom-gradient': 'linear-gradient(0deg, #0c0e12 0%, rgba(31, 41, 53, 0.36078) 100%)',
+    //   'custom-gradientTwo': 'linear-gradient(0deg,rgb(12,14,18)_0%,rgb(16,24,31)_100%)',                
+    // },
 
     content: {
       'arrow-icon': '"\\f30b"',

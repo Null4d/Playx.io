@@ -45,8 +45,8 @@ function About() {
 
                                 <ul className="relative flex flex-wrap justify-center gap-10 px-0 py-6 mx-auto lm:w-full w-400px md:735px nav-tabs before:absolute">
                                     <li className="relative z-1">
-                                        <button className="relative border transition-all rounded-50% border-solid border-green">
-                                            <span className="absolute border-green w-88px h-88px border -translate-x-2/4 -translate-y-2/4 transition-all z-minus-1 rounded-50% border-solid left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:rounded-50% before:left-0 before:top-0">
+                                        <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
+                                            <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">
 
                                             </span>
 
@@ -55,8 +55,8 @@ function About() {
                                     </li>
 
                                     <li className="relative z-1">
-                                        <button className="relative border transition-all rounded-50% border-solid border-amber-300">
-                                            <span className="absolute border-amber-300 w-88px h-88px border -translate-x-2/4 -translate-y-2/4 transition-all z-minus-1 rounded-50% border-solid left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:rounded-50% before:left-0 before:top-0">
+                                        <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
+                                            <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">
 
                                             </span>
 
@@ -65,8 +65,8 @@ function About() {
                                     </li>
 
                                     <li className="relative z-1">
-                                        <button className="relative border transition-all rounded-50% border-solid border-amber-300">
-                                            <span className="absolute border-amber-300 w-88px h-88px border -translate-x-2/4 -translate-y-2/4 transition-all z-minus-1 rounded-50% border-solid left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:rounded-50% before:left-0 before:top-0">
+                                        <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
+                                            <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">
 
                                             </span>
 
@@ -75,8 +75,8 @@ function About() {
                                     </li>
 
                                     <li className="relative z-1">
-                                        <button className="relative border transition-all rounded-50% border-solid border-amber-300">
-                                            <span className="absolute border-amber-300 w-88px h-88px border -translate-x-2/4 -translate-y-2/4 transition-all z-minus-1 rounded-50% border-solid left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:rounded-50% before:left-0 before:top-0">
+                                        <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
+                                            <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">
 
                                             </span>
 
@@ -85,8 +85,8 @@ function About() {
                                     </li>
 
                                     <li className="relative z-1">
-                                        <button className="relative border transition-all rounded-50% border-solid border-amber-300">
-                                            <span className="absolute border-amber-300 w-88px h-88px border -translate-x-2/4 -translate-y-2/4 transition-all z-minus-1 rounded-50% border-solid left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:rounded-50% before:left-0 before:top-0">
+                                        <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
+                                            <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">
 
                                             </span>
 
@@ -95,14 +95,15 @@ function About() {
                                     </li>
 
                                     <li className="relative z-1">
-                                        <button className="relative border transition-all rounded-50% border-solid border-amber-300">
-                                            <span className="absolute border-amber-300 w-88px h-88px border -translate-x-2/4 -translate-y-2/4 transition-all z-minus-1 rounded-50% border-solid left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-black before:rounded-50% before:left-0 before:top-0">
+                                        <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
+                                            <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">
 
                                             </span>
 
-                                            <img className='rounded-50%' src={aboutAvatar6} alt="aboutAvatar" />
+                                            <img className='bg-black rounded-50%' src={aboutAvatar6} alt="aboutAvatar" />
                                         </button>
                                     </li>
+
                                 </ul>
 
 
@@ -113,7 +114,7 @@ function About() {
                     {/* About Top */}
 
                     <div className="tab-content relative overflow-hidden max-w-700px md:max-w-1536px mx-auto mt-20 mb-0 after:content-[''] after:absolute after:w-full after:h-px after:opacity-5 after:left-0 after:bottom-0 after:bg-[linear-gradient(45deg,rgba(2,0,36,0)0%,#45f882_100%)]">
-                        <div className="flex flex-wrap justify-center ">
+                        <div className="flex flex-wrap justify-center mcc:flex-nowrap">
                             <div className="relative px-4">
                                 <img className='w-780px mcc:w-full' src={aboutbg1} alt="aboutbg1" />
                             </div>
@@ -130,27 +131,27 @@ function About() {
                                                 RATE 50%
                                             </p>
 
-                                            <span className="m-0 text-lg text-slate-300 ">
+                                            <span className="pr-8 m-0 text-lg text-slate-300 ">
                                                 Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa venenatis.
                                             </span>
                                         </div>
 
                                         <ul className="w-full p-0 m-0 list-wrap md:w-4/5">
-                                            <li className="bg-gradient-to-r from-gray-800 via-transparent/100 to-gray-800/100 shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] flex items-center text-base font-bold translate-x-0 duration-500 mt-0 mb-3 mx-0 py-2 rounded-8px hover:-translate-x-2.5 font-Barlow">
+                                            <li className="bg-gradient-to-r from-[#1f2935_0%] via-[transparent_100%] to-[#10181f_100%] shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] flex items-center text-base font-bold translate-x-0 duration-500 mt-0 mb-3 mx-0 py-2 rounded-8px hover:-translate-x-2.5 font-Barlow">
                                                 <img src={aboutFeatures1} alt="aboutFeatures1" />
                                                 <p className="ml-2 text-white">
                                                     Chichi Dragon Ball
                                                 </p>
                                             </li>
 
-                                            <li className="bg-gradient-to-r from-gray-800 via-transparent/100 to-gray-800/100 shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] flex items-center text-base font-bold translate-x-0 duration-500 mt-0 mb-3 mx-0 py-2 rounded-8px hover:-translate-x-2.5 font-Barlow">
+                                            <li className="bg-gradient-to-r from-[#1f2935_0%] via-[transparent_100%] to-[#10181f_100%] shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] flex items-center text-base font-bold translate-x-0 duration-500 mt-0 mb-3 mx-0 py-2 rounded-8px hover:-translate-x-2.5 font-Barlow">
                                                 <img src={aboutFeatures2} alt="aboutFeatures2" />
                                                 <p className="ml-2 text-white">
                                                     Space Babe Night
                                                 </p>
                                             </li>
 
-                                            <li className="bg-gradient-to-r from-gray-800 via-transparent/100 to-gray-800/100 shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] flex items-center text-base font-bold translate-x-0 duration-500 mt-0 mb-3 mx-0 py-2 rounded-8px hover:-translate-x-2.5 font-Barlow">
+                                            <li className="bg-gradient-to-r from-[#1f2935_0%] via-[transparent_100%] to-[#10181f_100%] shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] flex items-center text-base font-bold translate-x-0 duration-500 mt-0 mb-3 mx-0 py-2 rounded-8px hover:-translate-x-2.5 font-Barlow">
                                                 <img src={aboutFeatures3} alt="aboutFeatures3" />
                                                 <p className="ml-2 text-white">
                                                     Dragon Ball
@@ -162,19 +163,19 @@ function About() {
 
                                     <ul className="grid items-center gap-2 p-0 m-0 mt-auto sm:flex list-wrap ">
                                         <li className="flex-auto">
-                                            <a className=" block bg-slate-900 bg-[linear-gradient(0deg,#10181f_0%,_transparent_0%,#141a20_100%)] duration-200 uppercase text-base font-bold text-slate-400 text-center tracking-wider px-8 py-6 hover:text-green font-Barlow" href="#b">
+                                            <a className=" block bg-[#1f2935] bg-[linear-gradient(0deg,#10181f_0%,_transparent_0%,#141a20_100%)] duration-200 uppercase text-base font-bold text-slate-400 text-center tracking-wider px-8 py-6 hover:text-green font-Barlow" href="#b">
                                                 DRAGON Ball
                                             </a>
                                         </li>
 
                                         <li className="flex-auto">
-                                            <a className=" block bg-slate-900 bg-[linear-gradient(0deg,#10181f_0%,_transparent_0%,#141a20_100%)] duration-200 uppercase text-base font-bold text-slate-400 text-center tracking-wider px-8 py-6 hover:text-green font-Barlow" href="#b">
+                                            <a className=" block bg-[#1f2935] bg-[linear-gradient(0deg,#10181f_0%,_transparent_0%,#141a20_100%)] duration-200 uppercase text-base font-bold text-slate-400 text-center tracking-wider px-8 py-6 hover:text-green font-Barlow" href="#b">
                                                 NFT MARKET
                                             </a>
                                         </li>
 
                                         <li className="flex-auto">
-                                            <a className=" block bg-slate-900 bg-[linear-gradient(0deg,#10181f_0%,_transparent_0%,#141a20_100%)] duration-200 uppercase text-base font-bold text-slate-400 text-center tracking-wider px-8 py-6 hover:text-green font-Barlow" href="#b">
+                                            <a className=" block bg-[#1f2935] bg-[linear-gradient(0deg,#10181f_0%,_transparent_0%,#141a20_100%)] duration-200 uppercase text-base font-bold text-slate-400 text-center tracking-wider px-8 py-6 hover:text-green font-Barlow" href="#b">
                                                 SUPPORT TEAM
                                             </a>
                                         </li>
