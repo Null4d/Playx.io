@@ -11,8 +11,10 @@ function App() {
       <Header />
       <Hero />
       <NftItems />
+      <div className='about-swiper-bg'>
       <About />
       <Swiper />
+      </div>
     </>
   );
 }
