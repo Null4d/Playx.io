@@ -114,3 +114,26 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.mySwiper.swiper {
+  overflow: visible;
+}
+
+.mySwiper .swiper-scrollbar {
+  background: #16833a;
+  border-radius: 0%;
+  display: flex;
+  align-items: center;
+}
+
+.mySwiper .swiper-scrollbar-drag {
+  background: #45f882;
+  height: 0.5rem;
+  border-radius: 0%;
+}
+
+.mySwiper .swiper-horizontal > .swiper-scrollbar,
+.mySwiper .swiper-scrollbar.swiper-scrollbar-horizontal {
+  width: 100%;
+  left: 0;
+}
