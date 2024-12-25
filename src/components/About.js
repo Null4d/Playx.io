@@ -1,4 +1,3 @@
-import "./style.css";
 import aboutAvatar1 from '../img/others/about_tab01.png';
 import aboutAvatar2 from '../img/others/about_tab02.png';
 import aboutAvatar3 from '../img/others/about_tab03.png';

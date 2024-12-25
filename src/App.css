@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('flaticon.css');
+
 
 @font-face {
   font-family: "berlin_sans_fb_demibold";
@@ -137,3 +139,8 @@
   width: 100%;
   left: 0;
 }
+
+.flaticon-swords-in-cross-arrangement:before {
+  content: "\f10b";
+}
+

@@ -1,4 +1,3 @@
-import "./style.css";
 import nft1 from '../img/nft/nft_img01.jpg';
 import nft2 from '../img/nft/nft_img02.jpg';
 import nft3 from '../img/nft/nft_img03.jpg';

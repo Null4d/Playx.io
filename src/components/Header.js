@@ -2,7 +2,7 @@ import logo from '../img/logo/logo2_00000.png';
 import search from '../img/icons/search.png';
 
 
-function Header() {
+const Header = ({ toggleSidebar }) => {
     return (
         <>
             <div className="header">
@@ -71,8 +71,8 @@ function Header() {
                                                         ~SIGN IN
                                                     </a>
                                                 </li>
-                                                <li
-                                                    className="side-toggle-icon group/burger relative ml-6 flex flex-col min-w-w-11 gap-2.5 cursor-pointer">
+                                               
+                                                <li onClick={toggleSidebar} className=" group/burger relative ml-6 flex flex-col min-w-w-11 gap-2.5 cursor-pointer">
                                                     <span
                                                         className="block h-1 transition-all duration-300 ease-out bg-white delay-0 w-7 group-hover/burger:w-w-11"></span>
                                                     <span

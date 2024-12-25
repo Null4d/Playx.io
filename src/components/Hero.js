@@ -1,4 +1,3 @@
-import "./style.css";
 import heroİmg from '../img/slider/slider_img01.png';
 import brand1 from '../img/brand/brand_logo01.png';
 import brand2 from '../img/brand/brand_logo02.png';
@@ -12,7 +11,7 @@ function Hero() {
           <div className="flex flex-col lm:flex-row lm:justify-between flex-wrap px-[-15px] w-full">
             <div className="relative flex justify-center w-full px-4 lm:flex-row lm:w-6/12 basis-6/12 lm:justify-normal">
               <div className="relative flex flex-col w-full mt-32 mb-0 ml-0 mr-0 lm:ml-14 lg:ml-28 2xl:ml-10 z-2">
-                <h6 className="py-3 pl-4 pr-20 mb-4 ml-auto mr-auto text-xl font-bold tracking-widest lm:ml-0 text-green bg-gradient-to-r from-green/35 rounded-l-md">
+                <h6 className="py-3 pl-4 pr-20 mb-4 ml-auto mr-auto text-xl font-bold tracking-widest rounded-8px lm:ml-0 text-green bg-gradient-to-r from-green/35 rounded-l-md">
                   LIVE GAMING
                 </h6>
 
@@ -44,29 +43,29 @@ function Hero() {
                 <img className='mx-auto my-0 mt-16 lm:mt-0 max-w-96 sm:max-w-lg lm:max-w-lg-0 2xl:max-w-full ' src={heroİmg} alt="heroİmg" />
               </div>
             </div>
-            
+
 
           </div>
-          
+
           <ul className="flex items-center justify-center w-full gap-8 px-4 lm:pl-32 lm:absolute bottom-32 lm:justify-start sm:gap-16 brand-opacity list-wrap ">
-                  <li className="list-none duration-200">
-                    <a className="block" href="#b">
-                      <img src={brand1} alt="brand1" />
-                    </a>
-                  </li>
+            <li className="list-none duration-200">
+              <a className="block" href="#b">
+                <img src={brand1} alt="brand1" />
+              </a>
+            </li>
 
-                  <li className="list-none duration-200">
-                    <a className="block" href="#b">
-                      <img src={brand2} alt="brand2" />
-                    </a>
-                  </li>
+            <li className="list-none duration-200">
+              <a className="block" href="#b">
+                <img src={brand2} alt="brand2" />
+              </a>
+            </li>
 
-                  <li className="list-none duration-200">
-                    <a className="block" href="#b">
-                      <img src={brand3} alt="brand3" />
-                    </a>
-                  </li>
-                </ul>
+            <li className="list-none duration-200">
+              <a className="block" href="#b">
+                <img src={brand3} alt="brand3" />
+              </a>
+            </li>
+          </ul>
         </div>
       </section >
     </>
