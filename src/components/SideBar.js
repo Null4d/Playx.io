@@ -6,11 +6,11 @@ const SideBar = ({ isVisible, toggleSidebar }) => {
         <>
             <div
                 onClick={toggleSidebar}
-                className={`fixed top-0 right-0 z-10 w-full h-full transition-opacity duration-300 ease-out bg-gray-900 ${isVisible ? 'opacity-80 visible' : 'opacity-0 invisible'}`}
+                className={`fixed top-0 right-0 z-10 w-full h-full transition-opacity duration-300 ease-out bg-BlackBlue ${isVisible ? 'opacity-80 visible' : 'opacity-0 invisible'}`}
             ></div>
-            <div className={`fixed overflow-y-auto w-[485px] h-full bg-[#0d141b] z-10 transition-all duration-500 ease-[cubic-bezier(0.785,0.135,0.15,0.86)] flex flex-col right-0 top-0 ${isVisible ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={`fixed overflow-y-auto w-[485px] h-full bg-BlackBlue z-10 transition-all duration-500 ease-[cubic-bezier(0.785,0.135,0.15,0.86)] flex flex-col right-0 top-0 ${isVisible ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex flex-col flex-1">
-                    <div className="flex items-center pt-9 pb-6 px-10 border-b-[#18202a] border-b border-solid">
+                    <div className="flex items-center px-10 pb-6 border-b border-solid pt-9 border-b-BlackBlue">
                         <div className=" logo">
                             <a className="inline-block" href="index.html">
                                 <img className='max-w-44' src={logo} alt="logo" />
@@ -60,7 +60,7 @@ const SideBar = ({ isVisible, toggleSidebar }) => {
                             <li className="leading-none "><a className="block text-base text-white hover:text-green" href="#b"><i className="flaticon-youtube"></i></a></li>
                         </ul>
                     </div>
-                    <div className=" mt-auto mb-0 mx-0 px-10 py-8 bg-[#090f16]">
+                    <div className="px-10 py-8 mx-0 mt-auto mb-0 bg-BlackBlue">
                         <p className="m-0 text-sm font-semibold tracking-wider uppercase text-slate-300 font-Barlow">Copyright © 2023 - By <span className=" text-green">MYKD</span></p>
                     </div>
                 </div>

@@ -40,6 +40,8 @@ module.exports = {
 
       colors: {
         'green': '#45f882',
+        'grey': '#adb0bc',
+        'BlackBlue': '#151d23',
         'customDark': '#0b0e13',
       },
 
@@ -68,6 +70,7 @@ module.exports = {
         '1375px': '1375px',
         '1536px': '1536px',
         '700px': '700px',
+        '960px': '960px',
       },
 
       fontSize: {
