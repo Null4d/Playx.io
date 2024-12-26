@@ -7,6 +7,7 @@ import About from './components/About';
 import Swiper from './components/Swiper';
 import SideBar from './components/SideBar';
 import Footer from './components/Footer';
+import TeamArea from './components/TeamArea';
 
 function App() {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
@@ -25,6 +26,7 @@ function App() {
         <Swiper />
       </div>
       <SideBar isVisible={isSidebarVisible} toggleSidebar={toggleSidebar}  />
+      <TeamArea />
       <Footer />
     </>
   );

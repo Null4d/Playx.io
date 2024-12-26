@@ -32,7 +32,7 @@ function Footer() {
                                 </div>
                             </div>
                             <div class="w-full basis-2/12 2xl:w-2/12 2xl:basis-2/12 xl:w-2/12 xl:basis-2/12 lg:w-3/12 lg:basis-3/12 md:w-5/12 md:basis-5/12 sm:w-6/12 sm:basis-6/12 xsm:w-full xsm:basis-full relative px-4">
-                                <div class="footer-widget mt-0 mb-12 mx-0 widget_nav_menu md:pl-0 sm:pl-10 xsm:pl-0">
+                                <div class="footer-widget mt-0 mb-12 mx-0 widget_nav_menu md:pl-10 sm:pl-0 xsm:pl-0">
                                     <h4 class="fw-title uppercase font-bold text-xl text-white mt-0 mb-7 mx-0 ">quick link</h4>
                                     <ul class="list-wrap m-0 p-0  menu">
                                         <li class=" mt-0 mb-1.5 mx-0"><a class=" text-base inline-block text-grey relative hover:text-green  after:content-[''] after:absolute after:w-full after:h-px after:origin-[right_top] after:transition-transform after:duration-[0.4s] after:ease-[cubic-bezier(0.74,0.72,0.27,0.24)] after:scale-x-0 after:scale-y-100 after:left-0 after:bottom-0 after:bg-green  hover:after:origin-[left_top] hover:after:scale-100" href="#b">Gaming</a></li>
@@ -58,7 +58,7 @@ function Footer() {
                                 </div>
                             </div>
                             <div class="w-full basis-4/12 pb-12 2xl:w-4/12 2xl:basis-4/12 xl:w-4/12 xl:basis-4/12 lg:w-5/12 lg:basis-5/12 md:w-7/12 md:basis-7/12 sm:w-full sm:basis-full xsm:w-full xsm:basis-full relative px-4">
-                                <div class="mt-0 mb-12 mx-0 sm:pl-20 lg:pl-[0] md:pl-0 xsm:pl-0">
+                                <div class="mt-0 mb-12 mx-0 sm:pl-0 lg:pl-[0] md:pl-20 xsm:pl-0">
                                     <h4 class="uppercase text-white font-bold text-xl mt-0 mb-7 mx-0 ">Newsletter</h4>
                                     <div class="">
                                         <p class=" text-grey text-base mt-0 mb-5 mx-0">Subscribe our newsletter to get our latest update &amp; newsconsectetur</p>

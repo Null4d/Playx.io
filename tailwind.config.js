@@ -73,6 +73,10 @@ module.exports = {
         '960px': '960px',
       },
 
+      flexBasis: {
+        '45%': '45%',
+      },
+
       fontSize: {
         '150px': '150px',
       }
@@ -83,6 +87,7 @@ module.exports = {
       lg: '1024px',
       xl: '1280px',
       'lm': '992px',
+      'lx': '580px',
       'mcc': '1200px',
       '2xl': '1536px',
     },
