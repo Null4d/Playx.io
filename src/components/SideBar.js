@@ -25,13 +25,13 @@ const SideBar = ({ isVisible, toggleSidebar }) => {
                         <div className="mx-0 mt-0 mb-10 ">
                             <h4 className="mx-0 mt-0 mb-6 text-base font-semibold tracking-wider text-white small-title">CONTACT US</h4>
                             <ul className="p-0 m-0 list-wrap">
-                                <li className="text-slate-400 font-medium relative mt-0 mb-2 mx-0 pl-6 before:content-[''] before:absolute before:w-2 before:h-2 before:transition-all before:duration-150 before:delay-0 before:left-0 before:top-3 last:m-0 font-Barlow before:bg-slate-400 hover:before:bg-green">
-                                    <a className="text-slate-400 hover:text-green" href="tel:93332225557">+9 333 222 5557</a>
+                                <li className="text-grey font-medium relative mt-0 mb-2 mx-0 pl-6 before:content-[''] before:absolute before:w-2 before:h-2 before:transition-all before:duration-150 before:delay-0 before:left-0 before:top-3 last:m-0 font-Barlow before:bg-grey hover:before:bg-green">
+                                    <a className="text-grey hover:text-green" href="tel:93332225557">+9 333 222 5557</a>
                                 </li>
-                                <li className="text-slate-400 font-medium relative mt-0 mb-2 mx-0 pl-6 before:content-[''] before:absolute before:w-2 before:h-2 before:transition-all before:duration-150 before:delay-0 before:left-0 before:top-3 last:m-0 font-Barlow before:bg-slate-400 hover:before:bg-green">
-                                    <a className="text-slate-400 hover:text-green" href="mailto:info@webmail.com">info@webmail.com</a>
+                                <li className="text-grey font-medium relative mt-0 mb-2 mx-0 pl-6 before:content-[''] before:absolute before:w-2 before:h-2 before:transition-all before:duration-150 before:delay-0 before:left-0 before:top-3 last:m-0 font-Barlow before:bg-grey hover:before:bg-green">
+                                    <a className="text-grey hover:text-green" href="mailto:info@webmail.com">info@webmail.com</a>
                                 </li>
-                                <li className="text-slate-400 font-medium relative mt-0 mb-2 mx-0 pl-6 before:content-[''] before:absolute before:w-2 before:h-2 before:transition-all before:duration-150 before:delay-0 before:left-0 before:top-3 last:m-0 font-Barlow before:bg-slate-400 hover:before:bg-green">
+                                <li className="text-grey font-medium relative mt-0 mb-2 mx-0 pl-6 before:content-[''] before:absolute before:w-2 before:h-2 before:transition-all before:duration-150 before:delay-0 before:left-0 before:top-3 last:m-0 font-Barlow before:bg-grey hover:before:bg-green">
                                     New Central Park W7 Street ,New York
                                 </li>
                             </ul>
@@ -51,7 +51,7 @@ const SideBar = ({ isVisible, toggleSidebar }) => {
                                 </button>
                             </form>
 
-                            <p className="m-0 text-sm font-bold text-slate-400">Subscribe dolor sitamet, consectetur adiping eli. Duis esollici tudin augue.</p>
+                            <p className="m-0 text-sm font-bold text-grey">Subscribe dolor sitamet, consectetur adiping eli. Duis esollici tudin augue.</p>
                         </div>
                         <ul className="list-wraps flex items-center flex-wrap gap-[10px_28px] mt-12 pt-10 py-8 border-t-[#535d68] border-t border-solid">
                             <li className="leading-none "><a className="block text-base text-white hover:text-green" href="#b"><i className="flaticon-twitter"></i></a></li>

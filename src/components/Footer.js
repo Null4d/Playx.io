@@ -64,7 +64,7 @@ function Footer() {
                                         <p class=" text-grey text-base mt-0 mb-5 mx-0">Subscribe our newsletter to get our latest update &amp; newsconsectetur</p>
                                         <form action="#" class="relative">
                                             <input type="email" placeholder="Your email address" class="block w-full rounded-8px text-base h-14 pl-5 pr-24 py-4 rounded-md border-none bg-[#1f2935] placeholder:text-base focus:ring-0 focus:!border-none" />
-                                            <button type="submit" class="absolute w-16 h-full text-3xl text-BlackBlue flex items-center justify-center p-2.5 rounded-md border-0 right-0 top-0 bg-green hover:bg-[#ffbe18]">
+                                            <button type="submit" class="absolute w-16 h-full text-3xl text-BlackBlue flex items-center justify-center p-2.5 rounded-md border-0 right-0 top-0 bg-green hover:bg-amber-400">
                                                 <i class="flaticon-paper-plane"></i>
                                             </button>
                                         </form>

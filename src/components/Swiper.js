@@ -81,7 +81,7 @@ const MySwiper = () => {
                                                 {slide.title}
                                             </h3>
 
-                                            <p className="block font-semibold text-gray-400 uppercase sm: rate font-Barlow">
+                                            <p className="block font-semibold uppercase text-grey sm: rate font-Barlow">
                                                 {slide.description}
                                             </p>
                                         </div>

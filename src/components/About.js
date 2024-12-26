@@ -130,7 +130,7 @@ function About() {
                                                 RATE 50%
                                             </p>
 
-                                            <span className="pr-8 m-0 text-lg text-slate-300 ">
+                                            <span className="pr-8 m-0 text-lg text-grey ">
                                                 Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis, tincidunt massa venenatis.
                                             </span>
                                         </div>
