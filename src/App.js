@@ -8,6 +8,7 @@ import Swiper from './components/Swiper';
 import SideBar from './components/SideBar';
 import Footer from './components/Footer';
 import TeamArea from './components/TeamArea';
+import TrendingNft from './components/TrendingNft';
 
 function App() {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
@@ -27,6 +28,7 @@ function App() {
       </div>
       <SideBar isVisible={isSidebarVisible} toggleSidebar={toggleSidebar}  />
       <TeamArea />
+      <TrendingNft />
       <Footer />
     </>
   );

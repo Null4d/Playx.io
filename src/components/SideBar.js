@@ -47,13 +47,13 @@ const SideBar = ({ isVisible, toggleSidebar }) => {
                                 <button
                                     type="submit"
                                     className="absolute w-14 text-mb-6 border-none right-0 inset-y-0 bg-transparent before:content-[''] before:absolute before:w-px before:left-0 before:inset-y-1.5 before:bg-[#535d68] group">
-                                    <i className="flaticon-send text-green group-hover:text-amber-400"></i>
+                                    <i className=" text-green group-hover:text-amber-400"></i>
                                 </button>
                             </form>
 
                             <p className="m-0 text-sm font-bold text-grey">Subscribe dolor sitamet, consectetur adiping eli. Duis esollici tudin augue.</p>
                         </div>
-                        <ul className="list-wraps flex items-center flex-wrap gap-[10px_28px] mt-12 pt-10 py-8 border-t-[#535d68] border-t border-solid">
+                        <ul className="flex items-center flex-wrap gap-[10px_28px] mt-12 pt-10 py-8 border-t-[#535d68] border-t border-solid">
                             <li className="leading-none "><a className="block text-base text-white hover:text-green" href="#b"><i className="flaticon-twitter"></i></a></li>
                             <li className="leading-none "><a className="block text-base text-white hover:text-green" href="#b"><i className="flaticon-facebook"></i></a></li>
                             <li className="leading-none "><a className="block text-base text-white hover:text-green" href="#b"><i className="flaticon-twitch"></i></a></li>
