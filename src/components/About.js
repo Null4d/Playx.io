@@ -30,7 +30,7 @@ function About() {
                         </div>
                         {/* About Title And Button */}
 
-                        <div className="flex flex-wrap justify-center mx-4">
+                        <div className="flex flex-wrap justify-center w-full ">
                             <div className="relative px-4 basis-10/12">
                                 <div className="flex items-center flex-wrap justify-center gap-[15px_35px] mt-0 mb-10 mx-0">
                                     <a className="tg-btn-2" href="#b">
@@ -42,7 +42,7 @@ function About() {
                                     </a>
                                 </div>
 
-                                <ul className="relative flex flex-wrap justify-center gap-10 px-0 py-6 mx-auto lm:w-full w-400px md:735px nav-tabs before:absolute">
+                                <ul className="relative flex flex-wrap justify-center w-full gap-10 px-0 py-6 mx-auto lm:w-full md:735px nav-tabs before:absolute">
                                     <li className="relative z-1">
                                         <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
                                             <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">

@@ -7,7 +7,7 @@ const Header = ({ toggleSidebar }) => {
         <>
             <div className="header">
                 <div id="header" className="absolute flex justify-center w-full h-auto px-0 transition-all duration-100 z-3 ">
-                        <div className="flex flex-wrap w-full mx-minus-15px">
+                        <div className="flex flex-wrap w-full">
                             <div className="relative w-full px-5 mx-auto max-w-screen-2xl basis-full">
                                 <div className="header-menu">
                                     <nav className="flex flex-wrap items-center justify-start w-full">

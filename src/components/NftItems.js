@@ -7,7 +7,7 @@ function NftItems() {
   return (
     <>
       <section className="flex justify-center px-0 pt-24 pb-20 bg-customDark">
-        <div className="flex flex-wrap justify-center w-full mx-minus-15px">
+        <div className="flex flex-wrap justify-center w-full">
           <div className="relative px-4 w-4\/12 basis-4\/12 ">
             <div className="flex flex-col bg-[linear-gradient(0deg,#0c0e12_0%,rgba(31,41,53,0.36078)_100%)] items-end p-8 pr-8 mx-0 mt-0 mb-8 transition-all duration-150 border border-transparent sm:p-6 sm:pr-20 sm:flex-row rounded-8px rounded-xlbg-custom-gradient hover:border-emerald-800">
               <div className="mx-auto sm:mr-6 max-w-48">
