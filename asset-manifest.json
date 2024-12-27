@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Playrix.io/static/css/main.ee501423.css",
-    "main.js": "/Playrix.io/static/js/main.5a9e2853.js",
+    "main.js": "/Playrix.io/static/js/main.c6c832b3.js",
     "static/js/488.dc51f6b7.chunk.js": "/Playrix.io/static/js/488.dc51f6b7.chunk.js",
     "static/media/gallery03.jpg": "/Playrix.io/static/media/gallery03.d2db28726aa7a4b0eb1b.jpg",
     "static/media/video_bg.jpg": "/Playrix.io/static/media/video_bg.206cc1080ab00ab5e2ec.jpg",
@@ -43,11 +43,11 @@
     "index.html": "/Playrix.io/index.html",
     "static/media/white.svg": "/Playrix.io/static/media/white.8ff86d86475806aef66e.svg",
     "main.ee501423.css.map": "/Playrix.io/static/css/main.ee501423.css.map",
-    "main.5a9e2853.js.map": "/Playrix.io/static/js/main.5a9e2853.js.map",
+    "main.c6c832b3.js.map": "/Playrix.io/static/js/main.c6c832b3.js.map",
     "488.dc51f6b7.chunk.js.map": "/Playrix.io/static/js/488.dc51f6b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee501423.css",
-    "static/js/main.5a9e2853.js"
+    "static/js/main.c6c832b3.js"
   ]
 }
