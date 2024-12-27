@@ -20,7 +20,7 @@ function Hero() {
                 </h2>
 
                 <p className="m-0 text-2xl font-bold text-center text-white uppercase sm:text-3xl lm:text-start">
-                  VIDEO GAMES ONLINE
+                  VIDEO GAMES ONLINE <span className='text-xs font-bold text-grey'>WEB SITE IN PROGRESS</span>
                 </p>
 
                 <div className="mx-0 mt-8 mb-0 text-center lm:text-left">

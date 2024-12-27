@@ -56,6 +56,7 @@ const Header = ({ toggleSidebar }) => {
                                                         contact
                                                     </a>
                                                 </li>
+
                                             </ul>
                                         </div>
 
