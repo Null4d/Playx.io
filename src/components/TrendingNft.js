@@ -72,16 +72,16 @@ const TrendingNft = () => {
 
     return (
         <div className="w-full overflow-hidden bg-[#10181f] py-36">
-            <div className="mx-auto md:max-w-[1300px] sm:max-w-[540px] w-full px-20px">
+            <div className="mx-auto md:max-w-[1300px] px-4 sm:max-w-[540px] w-full px-20px">
 
                 <div class="trendingNft__title-wrap mt-0 mb-[50px] mx-0">
-                    <div class="flex flex-wrap mx-[-15px]">
-                        <div class="w-7/12 basis-7/12 2xl:w-7/12 2xl:basis-7/12 xl:w-7/12 xl:basis-7/12 lg:w-7/12 lg:basis-7/12 md:w-7/12 md:basis-7/12 sm:w-full sm:basis-full  xsm:w-full xsm:basis-full relative px-[15px]">
+                    <div class="flex flex-wrap md:flex-row flex-col mx-[-15px]">
+                        <div class="md:w-7/12 w-full basis-7/12 md:block md:justify-normal flex justify-center relative px-[15px]">
                             <div class="trendingNft__title">
                                 <h2 class="title flex items-center gap-[18px] text-[36px] m-0 justify-start text-white uppercase font-bold">top Trending <img className='w-10' src={nftFire} alt="nftFire" /></h2>
                             </div>
                         </div>
-                        <div class="w-5/12 basis-5/12 2xl:w-5/12 2xl:basis-5/12 xl:w-5/12 xl:basis-5/12 lg:w-5/12 lg:basis-5/12 md:w-5/12 md:basis-5/12 sm:w-full sm:basis-full  xsm:w-full xsm:basis-full relative px-[15px]">
+                        <div class="md:w-5/12 w-full basis-5/12 md:block md:justify-normal flex justify-center relative px-[15px]">
                             <div class="trendingNft__nav flex items-center justify-end gap-[13px] sm:mt-[18px]  xsm:mt-[18px]">
                                 <button class="nft-prev flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-[#45f882] hover:text-[#45f882] bg-transparent">
                                     <i class="fas fa-angle-left"></i>
@@ -101,11 +101,22 @@ const TrendingNft = () => {
                         nextEl: ".nft-next",
                     }}
                     modules={[Navigation]}
-                    slidesPerView={3}
+                    slidesPerView={1}
                     spaceBetween={30}
                     centeredSlides={true}
                     loop={true}
                     onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+                    breakpoints={{
+                        1200: {
+                            slidesPerView: 3,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                        },
+                        480: {
+                            slidesPerView: 1,
+                        },
+                    }}
                 >
                     {slides.map((slide, index) => (
                         <SwiperSlide key={index} className="relative w-full ">
