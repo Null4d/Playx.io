@@ -29,7 +29,7 @@ function RoadMap() {
                                             </a>
                                         </div>
                                         <div class=" ml-[-35px] mr-0 mt-9 mb-0 ">
-                                            <img className='roadphone' src={roadphone} alt="roadphone" />
+                                            <img className='animate-moveUpDown' src={roadphone} alt="roadphone" />
                                         </div>
                                     </div>
 

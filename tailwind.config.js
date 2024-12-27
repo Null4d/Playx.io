@@ -104,7 +104,18 @@ module.exports = {
     borderRadius: {
       '50%': '50%',
       '8px': '8px',
-    }
+    },
+
+    keyframes: {
+      moveUpDown: {
+        '0%': { transform: 'translateY(0)' },
+        '50%': { transform: 'translateY(-20px)' },
+        '100%': { transform: 'translateY(0)' },
+      },
+    },
+    animation: {
+      moveUpDown: 'moveUpDown 3s ease-in-out infinite',
+    },
   },
   plugins: [],
 }
