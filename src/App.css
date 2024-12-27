@@ -77,7 +77,6 @@
   --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   background-image: url(./img/icons/btn_shape01.png);
-  background-image: url(./img/bg/video_bg.jpg);
   --tw-content: "";
   content: var(--tw-content);
 }

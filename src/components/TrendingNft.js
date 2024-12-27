@@ -83,12 +83,16 @@ const TrendingNft = () => {
                         </div>
                         <div class="md:w-5/12 w-full basis-5/12 md:block md:justify-normal flex justify-center relative px-[15px]">
                             <div class="trendingNft__nav flex items-center justify-end gap-[13px] sm:mt-[18px]  xsm:mt-[18px]">
-                                <button class="nft-prev flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-[#45f882] hover:text-[#45f882] bg-transparent">
-                                    <i class="fas fa-angle-left"></i>
+                                <button class="nft-prev group/arrow flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
+                                    <svg className="fill-grey w-7 stroke-grey group-hover/arrow:stroke-green" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4 12L10 6M4 12L10 18M4 12H14.5M20 12H17.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
                                 </button>
 
-                                <button class="nft-next flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-[#45f882] hover:text-[#45f882] bg-transparent">
-                                    <i class="fas fa-angle-right"></i>
+                                <button class="nft-next group/arrow flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
+                                    <svg className="fill-grey w-7 stroke-grey group-hover/arrow:stroke-green" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4 12H6.5M20 12L14 6M20 12L14 18M20 12H9.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
                                 </button>
                             </div>
                         </div>
