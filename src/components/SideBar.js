@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/logo/logo2_00000.png';
+import logo from '../img/logo/logo.png';
 
 const SideBar = ({ isVisible, toggleSidebar }) => {
     return (
@@ -61,7 +61,7 @@ const SideBar = ({ isVisible, toggleSidebar }) => {
                         </ul>
                     </div>
                     <div className="px-10 py-8 mx-0 mt-auto mb-0 bg-BlackBlue">
-                        <p className="m-0 text-sm font-semibold tracking-wider uppercase text-slate-300 font-Barlow">Copyright © 2023 - By <span className=" text-green">MYKD</span></p>
+                        <p className="m-0 text-sm font-semibold tracking-wider uppercase text-slate-300 font-Barlow">Copyright © 2023 - By <span className=" text-green">PlayX</span></p>
                     </div>
                 </div>
             </div>

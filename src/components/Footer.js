@@ -1,4 +1,4 @@
-import logo from '../img/logo/logo2_00000.png';
+import logo from '../img/logo/logo.png';
 import Icon1 from '../img/icons/social_icon01.png';
 import Icon2 from '../img/icons/social_icon02.png';
 import Icon3 from '../img/icons/social_icon03.png';
@@ -79,7 +79,7 @@ function Footer() {
                         <div className="flex flex-col flex-wrap items-center justify-around w-full md:flex-row ">
                             <div className="relative px-4">
                                 <div className="text-left copyright__text sm:text-center xsm:text-center">
-                                    <p className="pb-2 m-0 text-sm font-semibold uppercase text-grey md:pb-0 font-Barlow">Copyright © 2023 - All Rights Reserved By <span className=" text-green">Mykd</span></p>
+                                    <p className="pb-2 m-0 text-sm font-semibold uppercase text-grey md:pb-0 font-Barlow">Copyright © 2023 - All Rights Reserved By <span className=" text-green">PlayX</span></p>
                                 </div>
                             </div>
                             <div className="relative px-[15px]">

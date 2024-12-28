@@ -163,6 +163,6 @@
   }
 }
 
-.roadphone {
+.moveupAnimation {
   animation: moveUpDown 3s ease-in-out infinite;
 }

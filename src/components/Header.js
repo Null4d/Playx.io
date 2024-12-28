@@ -1,4 +1,4 @@
-import logo from '../img/logo/logo2_00000.png';
+import logo from '../img/logo/logo.png';
 import search from '../img/icons/search.png';
 
 
@@ -13,7 +13,7 @@ const Header = ({ toggleSidebar }) => {
                                     <nav className="flex flex-wrap items-center justify-start w-full">
                                         <div className="flex items-center">
                                             <a className="inline-block" href="index.html">
-                                                <img className='w-56' src={logo} alt="logo" />
+                                                <img className='w-48' src={logo} alt="logo" />
                                             </a>
                                         </div>
 

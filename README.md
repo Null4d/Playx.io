@@ -1,1 +1,1 @@
-# Playrix.io
+# Playx.io

@@ -38,7 +38,7 @@ function Hero() {
               </div>
             </div>
 
-            <div className="order-1 w-full sm:order-0 basis-6/12 lm:w-6/12">
+            <div className="order-1 w-full moveupAnimation sm:order-0 basis-6/12 lm:w-6/12">
               <div className="">
                 <img className='mx-auto my-0 mt-16 lm:mt-0 max-w-96 sm:max-w-lg lm:max-w-lg-0 2xl:max-w-full ' src={heroİmg} alt="heroİmg" />
               </div>
@@ -47,7 +47,7 @@ function Hero() {
 
           </div>
 
-          <ul className="flex items-center justify-center w-full gap-8 px-4 lm:pl-32 lm:absolute bottom-32 lm:justify-start sm:gap-16 brand-opacity list-wrap ">
+          <ul className="flex items-center justify-center w-full gap-8 px-4 z-3 lm:pl-32 lm:absolute bottom-32 lm:justify-start sm:gap-16 brand-opacity list-wrap ">
             <li className="list-none duration-200">
               <a className="block" href="#b">
                 <img src={brand1} alt="brand1" />
