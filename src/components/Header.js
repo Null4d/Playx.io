@@ -21,37 +21,36 @@ const Header = ({ toggleSidebar }) => {
                                     <div className="flex justify-center navbar-wrap grow">
                                         <ul className="flex-row flex-wrap hidden navigation mcc:flex xl:ml-16 2xl:ml-28">
                                             <li className="relative block list-none group">
-                                                <a className="text-base font-bold uppercase block leading-none relative tracking-[0.8px] z-3 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:transition-all before:duration-150 before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green text-green before:opacity-100 before:-translate-y-2/4 before:rotate-[-40deg]"
-                                                    href="#section">
-                                                    HOME
-                                                </a>
+                                                <Link to="/" className="text-base font-bold uppercase block leading-none relative tracking-[0.8px] z-3 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:transition-all before:duration-150 before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green text-green before:opacity-100 before:-translate-y-2/4 before:rotate-[-40deg]">
+                                                   HOME
+                                                </Link>
                                             </li>
                                             <li className="relative block list-none group">
-                                                <Link to="/about" className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-[#45f882] group-hover:text-[#45f882]  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]">
+                                                <Link to="/about" className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green group-hover:text-green  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]">
                                                     ABOUT US
                                                 </Link>
                                             </li>
                                             <li className="relative block list-none group">
-                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-[#45f882] group-hover:text-[#45f882]  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
+                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green group-hover:text-green  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
                                                     href="#section">
                                                     TOURNAMENT
                                                 </a>
 
                                             </li>
                                             <li className="relative block list-none group">
-                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-[#45f882] group-hover:text-[#45f882]  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
+                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green group-hover:text-green  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
                                                     href="#section">
                                                     PAGES
                                                 </a>
                                             </li>
                                             <li className="relative block list-none group">
-                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-[#45f882] group-hover:text-[#45f882]  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
+                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green group-hover:text-green  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
                                                     href="#section">
                                                     NEWS
                                                 </a>
                                             </li>
                                             <li className="relative block list-none group">
-                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-[#45f882] group-hover:text-[#45f882]  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
+                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-[0.8px] z-[1] px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-[0.3s] before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green group-hover:text-green  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-[-40deg]"
                                                     href="#section">
                                                     contact
                                                 </a>
