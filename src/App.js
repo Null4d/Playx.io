@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
-// import Hero from './components/Hero';
-// import NftItems from './components/NftItems';
-// import About from './components/About';
-// import Swiper from './components/Swiper';
-// import SideBar from './components/SideBar';
-// import Footer from './components/Footer';
-// import TeamArea from './components/TeamArea';
-// import TrendingNft from './components/TrendingNft';
-// import VideoArea from './components/VideoArea';
-// import RoadMap from './components/RoadMap';
-import Bread from './components/breadcrumb';
+import Hero from './components/Hero';
+import NftItems from './components/NftItems';
+import About from './components/About';
+import Swiper from './components/Swiper';
+import SideBar from './components/SideBar';
+import Footer from './components/Footer';
+import TeamArea from './components/TeamArea';
+import TrendingNft from './components/TrendingNft';
+import VideoArea from './components/VideoArea';
+import RoadMap from './components/RoadMap';
 
 function App() {
-  const [setSidebarVisible] = useState(false);
+  const [isSidebarVisible, setSidebarVisible] = useState(false);
 
   const toggleSidebar = () => {
     setSidebarVisible(prevState => !prevState);
@@ -23,8 +22,7 @@ function App() {
   return (
     <>
       <Header toggleSidebar={toggleSidebar} />
-      <Bread />
-      {/* <Hero />
+      <Hero />
       <NftItems />
       <div className='about-swiper-bg'>
         <About />
@@ -35,7 +33,7 @@ function App() {
       <TrendingNft />
       <VideoArea />
       <RoadMap />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -85,13 +85,13 @@ const TrendingNft = () => {
                             <div className="trendingNft__nav flex items-center justify-end gap-[13px] sm:mt-[18px]  xsm:mt-[18px]">
                                 <button className="nft-prev group/arrow flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
                                     <svg className="fill-grey w-7 stroke-grey group-hover/arrow:stroke-green" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4 12L10 6M4 12L10 18M4 12H14.5M20 12H17.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M4 12L10 6M4 12L10 18M4 12H14.5M20 12H17.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </button>
 
                                 <button className="nft-next group/arrow flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
                                     <svg className="fill-grey w-7 stroke-grey group-hover/arrow:stroke-green" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M4 12H6.5M20 12L14 6M20 12L14 18M20 12H9.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M4 12H6.5M20 12L14 6M20 12L14 18M20 12H9.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </button>
                             </div>
