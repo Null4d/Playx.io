@@ -6,11 +6,11 @@ import NftItems from './components/NftItems';
 import About from './components/About';
 import Swiper from './components/Swiper';
 import SideBar from './components/SideBar';
-import Footer from './components/Footer';
 import TeamArea from './components/TeamArea';
 import TrendingNft from './components/TrendingNft';
 import VideoArea from './components/VideoArea';
 import RoadMap from './components/RoadMap';
+import Footer from './components/Footer';
 
 function App() {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
