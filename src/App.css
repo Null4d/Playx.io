@@ -141,7 +141,7 @@
   border-radius: 0%;
 }
 
-.mySwiper .swiper-horizontal > .swiper-scrollbar,
+.mySwiper .swiper-horizontal>.swiper-scrollbar,
 .mySwiper .swiper-scrollbar.swiper-scrollbar-horizontal {
   width: 100%;
   left: 0;
@@ -155,9 +155,11 @@
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-20px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -165,4 +167,69 @@
 
 .moveupAnimation {
   animation: moveUpDown 3s ease-in-out infinite;
+}
+
+
+.mask-image {
+  mask-image: url(/src/img/others/mask_bg01.png);
+}
+
+.mask-image2 {
+  mask-image: url(/src/img/others/mask_bg02.png);
+}
+
+.shake:hover {
+  animation: shake 1s ease-in-out;
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  75% {
+    transform: translateX(-5px);
+  }
+}
+
+.moving-svg {
+  animation: moveLeftRight 7s ease-in-out infinite;
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(-13px);
+  }
+
+  50% {
+    transform: translateX(-55px);
+  }
+
+  100% {
+    transform: translateX(-13px);
+  }
+}
+
+
+@keyframes circleRotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.circle-rotation {
+  animation: circleRotation 12s linear infinite;
 }

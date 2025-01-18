@@ -22,10 +22,10 @@ function NftItems() {
 
               <div className="flex items-center justify-center w-6/12 basis-6/12">
                 <div className="absolute">
-                  <img className='' src={breadcrumb} alt="breadcrumb" />
+                  <img className='shake' src={breadcrumb} alt="breadcrumb" />
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>
