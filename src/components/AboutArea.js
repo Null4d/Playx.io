@@ -5,12 +5,12 @@ import circle from '../img/others/circle.png';
 function AboutArea() {
     return (
         <>
-            <section className="py-[130px]  bg-[#10181f] relative z-[1] sm:py-[100px]">
+            <section className="py-32  bg-[#10181f] relative z-[1] sm:py-[100px]">
                 <div className="container mx-auto">
                     <div className="flex flex-wrap mx-[-15px]">
-                        <div className="w-4/12 basis-4/12 relative px-[15px]">
-                            <div className=" max-w-[340px] block">
-                                <h2 className="title text-white leading-tight font-light text-[55px] uppercase tracking-[3.5px] mt-0 mb-[50px] mx-0 text-left">
+                        <div className="relative w-4/12 px-4 basis-4/12">
+                            <div className="block max-w-80-">
+                                <h2 className="title text-white leading-tight font-light text-6xl uppercase tracking-[3.5px] mt-0 mb-12 mx-0 text-left">
                                     WE ARE <i className="not-italic font-bold uppercase text-green">developer</i> ern nft gam<i className='not-italic font-bold'>ing</i>
                                 </h2>
                             </div>
@@ -20,7 +20,7 @@ function AboutArea() {
                             </div>
                         </div>
 
-                        <div class="w-8/12 basis-8/12 relative px-[15px]">
+                        <div class="w-8/12 basis-8/12 relative px-4">
                             <div class="flex items-start gap-[26px] ml-[-30px] relative hover:after:rotate-[90deg] hover:after:left-[34%] after:content-[''] after:absolute after:w-[75px] after:h-[75px] after:shadow-[0px_3px_7px_0px_rgba(0,0,0,0.32)] after:bg-[#45f882] after:origin-[left_bottom] after:transition-all after:duration-700 after:left-[27%] after:top-[49%]">
                                 <img className='mask-image left ml-16 mt-5 w-[363px] h-[487px] object-cover' src={maskImage1} alt="logo" />
 
@@ -54,7 +54,7 @@ function AboutArea() {
                             </div>
 
 
-                            <div class="about__three-paragraph mt-[-35px] max-w-[77%] ml-auto mr-[5px] mb-0 text-left">
+                            <div class="about__three-paragraph mt-[-35px] max-w-[77%] ml-auto mr-1 mb-0 text-left">
                                 <p class="font-semibold text-lg text-grey m-0 ready stop" id="text">
                                     Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis tincidunt massa venenatis. Lorem Ipsum is simply dummyd the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley.
                                 </p>
