@@ -21,13 +21,16 @@ function AboutArea() {
                         </div>
 
                         <div class="2xl:w-8/12 2xl:basis-8/12 w-full basis-full relative px-4">
-                            <div class="flex flex-col lm:flex-row items-start gap-[26px] ml-[-30px] relative after:hidden lg:after:block hover:after:rotate-[90deg] hover:after:left-[31%] 2xl:hover:after:left-[34%] after:content-[''] after:absolute after:w-[75px] after:h-[75px] after:shadow-[0px_3px_7px_0px_rgba(0,0,0,0.32)] after:bg-[#45f882] after:origin-[left_bottom] after:transition-all after:duration-700 
-                            after:left-[21%] after:top-[47%] mcc:after:left-[24%] mcc:after:top-[47%] xl:after:left-[26%] xl:after:top-[47%] 2xl:after:left-[27%] 2xl:after:top-[47%]">
-                                <img className='lm:mask-image left 2xl:ml-16 mx-auto lm:ml-auto mt-0 w-[678px] lm:w-[363px] h-[487px] object-cover' src={maskImage1} alt="logo" />
-                                <img className='lx:mask-image2 right w-[685px] mx-auto lm:mr-auto h-[440px] 2xl:h-full 2xl:w-full object-cover' src={maskImage2} alt="logo" />
-                                <div class="absolute hidden lx:flex text-[#45f882] top-[35rem] 2xl:top-0 lm:top-12 animate-[xAnimation_5s_infinite] right-[73px] ">
-                                    <svg class="moving-svg block absolute
-                                    right-[-65px] md:right-0 lm:right-[-4rem] mcc:right-4 xl:right-12 2xl:right-[-80px] 2xl:top-3 top-[-1.25rem] w-36 h-10 2xlw-[100px] 2xlh-[30px]" width="109" height="35" viewBox="0 0 109 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div class="flex flex-col lm:flex-row items-start gap-[26px] relative">
+                                <div className="relative after:hidden lg:after:block after:right-[75px] after:bottom-[185px] hover:after:right-[0] hover:after:rotate-[90deg] after:content-[''] after:absolute after:w-[75px]
+                                 after:h-[75px] after:shadow-[0px_3px_7px_0px_rgba(0,0,0,0.32)] after:bg-[#45f882] after:origin-[left_bottom] after:transition-all after:duration-700">
+                                    <img className='lm:mask-image left mx-auto lm:ml-auto mt-0 w-[678px] lm:w-[363px] h-[487px] object-cover' src={maskImage1} alt="logo" />
+                                </div>
+
+                                <div className='relative'>
+                                    <img className='right w-[685px] h-[440px] mx-auto lm:mr-auto  2xl:h-full 2xl:w-full object-cover' src={maskImage2} alt="logo" />
+                                    <div class="bg-[#10181f] w-[220px] py-4 absolute hidden lx:flex justify-end items-center text-[#45f882] top-0 right-0 animate-[xAnimation_5s_infinite] ">
+                                    <svg class="moving-svg block w-36 h-10 2xlw-[100px] 2xlh-[30px]" width="109" height="35" viewBox="0 0 109 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M9 0H0V7H9V0Z" fill="currentcolor"></path>
                                         <path d="M24 0H15V7H24V0Z" fill="currentcolor"></path>
                                         <path d="M38 0H29V7H38V0Z" fill="currentcolor"></path>
@@ -52,6 +55,8 @@ function AboutArea() {
                                         <path d="M109 28H100V35H109V28Z" fill="currentcolor"></path>
                                     </svg>
                                 </div>
+                                </div>
+
                             </div>
 
 
