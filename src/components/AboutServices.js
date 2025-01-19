@@ -82,7 +82,7 @@ function AboutServices() {
                                         </p>
                                     </div>
                                 </div>
-                                
+
                                 <div>
                                     <div className="block mx-0 mt-0 mb-8 text-4xl leading-none text-green">
                                         <i className="flaticon-settings-1"></i>
