@@ -170,13 +170,19 @@
 }
 
 
-.mask-image {
+/* .mask-image {
   mask-image: url(/src/img/others/mask_bg01.png);
-}
+  mask-position: top left;
+  mask-repeat: no-repeat;
+  mask-size: cover;
+} */
 
-.mask-image2 {
+/* .mask-image2 {
   mask-image: url(/src/img/others/mask_bg02.png);
-}
+  mask-position: top left;
+  mask-repeat: no-repeat;
+  mask-size: cover;
+} */
 
 .shake:hover {
   animation: shake 1s ease-in-out;
