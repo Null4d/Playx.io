@@ -15,9 +15,9 @@ function RoadMap() {
                                 <div className="flex flex-col flex-wrap w-full lg:flex-row">
                                     <div className="w-full pb-8 lg:w-5/12 lg:pb-0 basis-5/12 ">
                                         <div className="">
-                                            <h2 className="title md:text-5xl text-[2rem] font-extrabold tracking-[3px] text-white uppercase leading-none mt-0 mb-7 mx-0 ">a look into roadmaps seasons</h2>
+                                            <h2 className="mx-0 mt-0 text-4xl font-extrabold leading-none tracking-widest text-white uppercase title md:text-5xl mb-7 ">a look into roadmaps seasons</h2>
 
-                                            <p className=" max-w-[95%] tracking-wider mt-0 mb-[35px] font-semibold mx-0 text-grey">With Season 1 Ending with our play and Duis elementum sollicitudin is yaugue euismods Nulla ulla Player-focused updates games from Mobile App and Enjoy.</p>
+                                            <p className="mx-0 mt-0 font-semibold tracking-wider max-w-95 mb-9 text-grey">With Season 1 Ending with our play and Duis elementum sollicitudin is yaugue euismods Nulla ulla Player-focused updates games from Mobile App and Enjoy.</p>
 
                                             <a className="tg-btn-1 group/greenBtn text-white px-12 py-4 relative z-1 inline-flex min-w-195px justify-center overflow-hidden px-49px py-0-875 text-center text-sm font-extrabold uppercase tracking-wide 
                                              before:absolute before:left-0 before:top-2/4 before:z-1 before:h-[calc(100%+6px)] before:w-30px before:-translate-y-2/4 before:bg-white-arrow before:bg-cover before:bg-center before:bg-no-repeat 
@@ -34,7 +34,7 @@ function RoadMap() {
                                     </div>
 
                                     <div className="relative w-full px-0 lg:w-7/12 basis-7/12 md:px-4">
-                                        <div className=" relative ml-0 lg:ml-[60px] before:content-[''] before:absolute before:w-1.5 before:h-full before:rounded-[5px] before:left-0 before:top-0 before:bg-gradient-to-t before:from-[#10161c] before:to-green">
+                                        <div className=" relative ml-0 lg:ml-[60px] before:content-[''] before:absolute before:w-1.5 before:h-full before:rounded-8px before:left-0 before:top-0 before:bg-gradient-to-t before:from-[#10161c] before:to-green">
                                             <div className=" bg-[#1b242e] py-6 px-3 drop-shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] relative ml-11 mr-0 mt-0 mb-5 p-ml-11 rounded-lg before:content-[''] before:absolute before:left-[-34px] before:-translate-y-2/4 before:w-0 before:h-0 before:border-solid before:top-2/4 last:mb-0 before:border-t-[20px] before:border-r-0 before:border-b-[20px] before:border-l-[18px] before:border-[transparent_transparent_transparent_#45f882] active before:opacity-[0.9] sm:ml-[35px] sm:mr-0 sm:mt-0 sm:mb-5 sm:px-[25px] ">
                                                 <h3 className="mx-0 mt-0 mb-6 text-3xl font-extrabold leading-none text-white uppercase lg:text-3xl sm:text-2xl xsm:text-2xl">season 1</h3>
 

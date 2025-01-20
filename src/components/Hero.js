@@ -8,7 +8,7 @@ function Hero() {
     <>
       <section className="min-h-screen bg-center bg-cover pt-2 lg:pt-40 pb-14 px-0 relative bg-[url('/src/img/slider/slider_bg.jpg')]">
         <div className="relative h-full mx-auto max-w-screen-2xl">
-          <div className="flex flex-col lg:flex-row lg:justify-between flex-wrap px-[-15px] w-full">
+          <div className="flex flex-col flex-wrap w-full lg:flex-row lg:justify-between px-minus-15px">
             <div className="relative flex justify-center w-full px-4 lg:flex-row lg:w-6/12 basis-6/12 lg:justify-normal">
               <div className="relative flex flex-col w-full mt-32 mb-0 ml-0 mr-0 lg:ml-28 2xl:ml-10 z-2">
                 <h6 className="py-3 pl-4 pr-20 mb-4 ml-auto mr-auto text-xl font-bold tracking-widest rounded-8px lg:ml-0 text-green bg-gradient-to-r from-green/35 rounded-l-md">

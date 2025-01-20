@@ -72,24 +72,24 @@ const TrendingNft = () => {
 
     return (
         <div className="w-full overflow-hidden bg-[#10181f] py-36">
-            <div className="mx-auto md:max-w-[1300px] px-4 sm:max-w-[540px] w-full px-20px">
+            <div className="w-full px-4 mx-auto md:max-w-7xl sm:max-w-xl px-20px">
 
-                <div className="trendingNft__title-wrap mt-0 mb-[50px] mx-0">
-                    <div className="flex flex-wrap md:flex-row flex-col mx-[-15px]">
-                        <div className="md:w-7/12 w-full basis-7/12 md:block md:justify-normal flex justify-center relative px-[15px]">
+                <div className="mx-0 mt-0 trendingNft__title-wrap mb-14">
+                    <div className="flex flex-col flex-wrap md:flex-row mx-minus-15px">
+                        <div className="relative flex justify-center w-full px-4 md:w-7/12 basis-7/12 md:block md:justify-normal">
                             <div className="trendingNft__title">
-                                <h2 className="title flex items-center gap-[18px] text-[36px] m-0 justify-start text-white uppercase font-bold">top Trending <img className='w-10' src={nftFire} alt="nftFire" /></h2>
+                                <h2 className="flex items-center justify-start gap-5 m-0 text-4xl font-bold text-white uppercase title">top Trending <img className='w-10' src={nftFire} alt="nftFire" /></h2>
                             </div>
                         </div>
-                        <div className="md:w-5/12 w-full basis-5/12 md:block md:justify-normal flex justify-center relative px-[15px]">
-                            <div className="trendingNft__nav flex items-center justify-end gap-[13px] sm:mt-[18px]  xsm:mt-[18px]">
-                                <button className="nft-prev group/arrow flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
+                        <div className="relative flex justify-center w-full px-4 md:w-5/12 basis-5/12 md:block md:justify-normal">
+                            <div className="flex items-center justify-end gap-3 trendingNft__nav sm:mt-4 xsm:mt-4">
+                                <button className="nft-prev group/arrow flex items-center justify-center w-10 h-10 text-xl text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
                                     <svg className="fill-grey w-7 stroke-grey group-hover/arrow:stroke-green" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M4 12L10 6M4 12L10 18M4 12H14.5M20 12H17.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>
                                 </button>
 
-                                <button className="nft-next group/arrow flex items-center justify-center w-10 h-10 text-[18px] text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
+                                <button className="nft-next group/arrow flex items-center justify-center w-10 h-10 text-xl text-grey rounded-50% border-2 border-solid border-grey hover:border-green hover:text-green bg-transparent">
                                     <svg className="fill-grey w-7 stroke-grey group-hover/arrow:stroke-green" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M4 12H6.5M20 12L14 6M20 12L14 18M20 12H9.5" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                     </svg>

@@ -42,7 +42,7 @@ const SideBar = ({ isVisible, toggleSidebar }) => {
                                 <input
                                     type="email"
                                     placeholder="Get News &amp; Updates"
-                                    className="block w-full border text-sm font-medium transition-all duration-150 delay-0 pl-4 mb-6 pr-20 py-[15px] border-solid border-[#535d68] font-Barlow bg-transparent focus:!ring-[none] focus:!border-[#535d68] focus:border-solid focus:!outline-offset-0  focus:outline-0"
+                                    className="block w-full border text-sm font-medium transition-all duration-150 delay-0 pl-4 mb-6 pr-20 py-4 border-solid border-[#535d68] font-Barlow bg-transparent focus:!ring-[none] focus:!border-[#535d68] focus:border-solid focus:!outline-offset-0  focus:outline-0"
                                 />
                                 <button
                                     type="submit"

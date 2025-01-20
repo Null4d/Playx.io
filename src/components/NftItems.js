@@ -26,7 +26,7 @@ function NftItems() {
                 <div className="flex items-center mx-0 mt-0 mb-5">
                   <div className="avatar-img flex-[0_0_auto] ml-0 mr-2.5 my-0">
                     <a className="" href="#b">
-                      <img className='rounded-[50%]' src={nftAvatar} alt="nftAvatar" />
+                      <img className='rounded-50%' src={nftAvatar} alt="nftAvatar" />
                     </a>
                   </div>
 
@@ -80,7 +80,7 @@ function NftItems() {
                 <div className="flex items-center mx-0 mt-0 mb-5">
                   <div className="avatar-img flex-[0_0_auto] ml-0 mr-2.5 my-0">
                     <a className="" href="#b">
-                      <img className='rounded-[50%]' src={nftAvatar} alt="nftAvatar" />
+                      <img className='rounded-50%' src={nftAvatar} alt="nftAvatar" />
                     </a>
                   </div>
 
@@ -133,7 +133,7 @@ function NftItems() {
                 <div className="flex items-center mx-0 mt-0 mb-5">
                   <div className="avatar-img flex-[0_0_auto] ml-0 mr-2.5 my-0">
                     <a className="" href="#b">
-                      <img className='rounded-[50%]' src={nftAvatar} alt="nftAvatar" />
+                      <img className='rounded-50%' src={nftAvatar} alt="nftAvatar" />
                     </a>
                   </div>
 

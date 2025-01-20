@@ -75,6 +75,7 @@ module.exports = {
 
       padding: {
         '15px': '15px',
+        'minus-15px': '-15px',
       },
 
       maxWidth: {
@@ -83,6 +84,7 @@ module.exports = {
         '700px': '700px',
         '960px': '960px',
         '77%': '77%',
+        '95%': '95%',
       },
 
       flexBasis: {
