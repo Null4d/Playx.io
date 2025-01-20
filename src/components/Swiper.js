@@ -44,7 +44,7 @@ const MySwiper = () => {
         <div className="w-full overflow-hidden">
             <div className="mx-auto md:max-w-[1300px] sm:max-w-[540px] w-full pb-32 px-20px">
                 <div className="flex flex-wrap mx-[-15px] justify-center ">
-                    <div className="w-full basis-9/12 justify-center mx-auto mcc:w-9/12 xl:basis-9/12 lg:w-10/12 lg:basis-10/12 md:w-11/12 md:basis-11/12 sm:w-full sm:basis-full  xsm:w-full xsm:basis-full relative px-[15px]">
+                    <div className="w-full basis-9/12 justify-center mx-auto xl:basis-9/12 lg:w-10/12 lg:basis-10/12 md:w-11/12 md:basis-11/12 sm:w-full sm:basis-full  xsm:w-full xsm:basis-full relative px-[15px]">
                         <Swiper
                             scrollbar={{
                                 hide: false,

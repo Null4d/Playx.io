@@ -5,13 +5,13 @@ import circle from '../img/others/circle.png';
 function AboutArea() {
     return (
         <>
-            <section className="py-32  bg-[#10181f] relative z-[1] sm:py-[100px]">
+            <section className="py-32  bg-[#10181f] relative z-[1] sm:py-24">
                 <div className="container mx-auto">
-                    <div className='max-w-[960px] xl:max-w-full mx-auto'>
-                        <div className="flex 2xl:flex-row flex-col flex-wrap mx-[-15px]">
-                            <div className="relative flex-row w-full pb-16 px-7 lm:pb-0 lg:flex 2xl:block basis-full 2xl:w-4/12 2xl:basis-4/12">
+                    <div className='mx-auto max-w-960px xl:max-w-full'>
+                        <div className="flex flex-col flex-wrap 2xl:flex-row mx-minus-15px">
+                            <div className="relative flex-row w-full pb-16 px-7 lg:pb-0 lg:flex 2xl:block basis-full 2xl:w-4/12 2xl:basis-4/12">
                                 <div className="block max-w-80-">
-                                    <h2 className="title text-white leading-tight font-light text-[3.2rem] lg:text-6xl uppercase tracking-[3.5px] mt-0 mb-12 mx-0 text-center lg:text-left">
+                                    <h2 className="mx-0 mt-0 mb-12 text-5xl font-light leading-tight tracking-wider text-center text-white uppercase title lg:text-6xl lg:text-left">
                                         WE ARE <i className="not-italic font-bold uppercase text-green">developer</i> ern nft gam<i className='not-italic font-bold'>ing</i>
                                     </h2>
                                 </div>
@@ -22,16 +22,16 @@ function AboutArea() {
                             </div>
 
                             <div className="relative w-full px-4 2xl:w-8/12 2xl:basis-8/12 basis-full">
-                                <div className="flex flex-col lm:flex-row items-start gap-[26px] relative">
-                                    <div className="relative after:hidden lg:after:block after:right-[75px] after:bottom-[185px] hover:after:right-[0] hover:after:rotate-[90deg] after:content-[''] after:absolute after:w-[75px]
-                                 after:h-[75px] after:shadow-[0px_3px_7px_0px_rgba(0,0,0,0.32)] after:bg-[#45f882] after:origin-[left_bottom] after:transition-all after:duration-700">
-                                        <img className='lm:mask-image left mx-auto lm:ml-auto mt-0 w-[678px] lm:w-[363px] h-[487px] object-cover' src={maskImage1} alt="logo" />
+                                <div className="relative flex flex-col items-center mx-auto lg:flex-row lg:items-start gap-7">
+                                    <div className="relative after:hidden lg:after:block after:right-16 after:bottom-44 hover:after:right-0 hover:after:hue-rotate-90 after:content-[''] after:absolute after:w-75px
+                                 after:h-75px after:shadow-[0px_3px_7px_0px_rgba(0,0,0,0.32)] after:bg-green after:origin-[left_bottom] after:transition-all after:duration-700">
+                                        <img className='object-cover mx-auto mt-0 lg:mask-image left lg:ml-auto w-685px lg:w-363px h-487px' src={maskImage1} alt="logo" />
                                     </div>
 
                                     <div className='relative'>
-                                        <img className='right w-[685px] h-[440px] mx-auto lm:mr-auto  2xl:h-full 2xl:w-full object-cover' src={maskImage2} alt="logo" />
-                                        <div className="bg-[#10181f] w-[220px] py-4 absolute hidden lx:flex justify-end items-center text-[#45f882] top-0 right-0 animate-[xAnimation_5s_infinite] ">
-                                            <svg className="moving-svg block w-36 h-10 2xlw-[100px] 2xlh-[30px]" width="109" height="35" viewBox="0 0 109 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <img className='object-cover mx-auto right w-685px h-440px lg:mr-auto 2xl:h-full 2xl:w-full' src={maskImage2} alt="logo" />
+                                        <div className="bg-[#10181f] w-56 py-4 absolute hidden lg:flex justify-end items-center text-green top-0 right-0 animate-[xAnimation_5s_infinite] ">
+                                            <svg className="block h-10 moving-svg w-36 2xl:w-24 2xl:h-8" width="109" height="35" viewBox="0 0 109 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M9 0H0V7H9V0Z" fill="currentcolor"></path>
                                                 <path d="M24 0H15V7H24V0Z" fill="currentcolor"></path>
                                                 <path d="M38 0H29V7H38V0Z" fill="currentcolor"></path>
@@ -61,7 +61,7 @@ function AboutArea() {
                                 </div>
 
 
-                                <div className="lm:mt-[-35px] mt-10 max-w-[77%] mx-auto lm:ml-auto lm:mr-1 mb-0 text-center lm:text-left">
+                                <div className="lg:mt-minus-35px mt-10 max-w-77% mx-auto lg:ml-auto lg:mr-1 mb-0 text-center lg:text-left">
                                     <p className="m-0 text-lg font-semibold text-grey ready stop" id="text">
                                         Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum sollicitudin is yaugue euismods Nulla ullamcorper. Morbi pharetra tellus miolslis tincidunt massa venenatis. Lorem Ipsum is simply dummyd the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley.
                                     </p>

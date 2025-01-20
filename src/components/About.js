@@ -42,7 +42,7 @@ function About() {
                                     </a>
                                 </div>
 
-                                <ul className="relative flex flex-wrap justify-center w-full gap-10 px-0 py-6 mx-auto lm:w-full md:735px nav-tabs before:absolute">
+                                <ul className="relative flex flex-wrap justify-center w-full gap-10 px-0 py-6 mx-auto lg:w-full md:735px nav-tabs before:absolute">
                                     <li className="relative z-1">
                                         <button className="relative border transition-all duration-150 delay-0 rounded-50% border-solid border-transparent bg-gradient-to-t from-slate-900 via-amber-500">
                                             <span className="img-shape absolute w-85px h-84px z-minus-1 border -translate-x-2/4 -translate-y-2/4 transition-all duration-150 delay-0 rounded-50% border-solid border-transparent left-2/4 top-2/4 before:content-[''] before:absolute before:w-full before:h-full before:bg-slate-900 before:rounded-[50%] before:left-0 before:top-0 bg-gradient-to-t via-amber-500">
@@ -113,14 +113,14 @@ function About() {
                     {/* About Top */}
 
                     <div className="tab-content relative overflow-hidden max-w-700px md:max-w-1536px mx-auto mt-20 mb-0 after:content-[''] after:absolute after:w-full after:h-px after:opacity-5 after:left-0 after:bottom-0 after:bg-[linear-gradient(45deg,rgba(2,0,36,0)0%,#45f882_100%)]">
-                        <div className="flex flex-wrap justify-center mcc:flex-nowrap">
+                        <div className="flex flex-wrap justify-center lg:flex-nowrap">
                             <div className="relative px-4">
-                                <img className='w-780px mcc:w-full' src={aboutbg1} alt="aboutbg1" />
+                                <img className='w-780px lg:w-full' src={aboutbg1} alt="aboutbg1" />
                             </div>
                             {/* About content img */}
                             <div className="relative w-full px-4 sm:w-815px">
                                 <div className="flex flex-col h-full">
-                                    <div className="flex flex-col gap-24 md:flex-row mcc:gap-0">
+                                    <div className="flex flex-col gap-24 md:flex-row lg:gap-0">
                                         <div className="w-full mx-0 mt-0">
                                             <h4 className="title font-bold text-white text-3xl mt-0 mb-0.5 mx-0">
                                                 HUMAN GAME

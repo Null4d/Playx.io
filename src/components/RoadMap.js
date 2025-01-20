@@ -8,12 +8,12 @@ function RoadMap() {
     return (
         <>
             <section className="pt-36 pb-pt-36 bg-[url('/src/img/bg/roadmap_bg.jpg')] bg-center bg-cover sm:py-24 xsm:py-24">
-                <div className="max-w-full mx-auto lx:container">
+                <div className="max-w-full mx-auto md:container">
                     <div className="flex flex-wrap justify-center w-full ">
                         <div className="relative w-10/12 basis-10/12 ">
                             <div className="">
-                                <div className="flex flex-col flex-wrap w-full lm:flex-row">
-                                    <div className="w-full pb-8 lm:w-5/12 lm:pb-0 basis-5/12 ">
+                                <div className="flex flex-col flex-wrap w-full lg:flex-row">
+                                    <div className="w-full pb-8 lg:w-5/12 lg:pb-0 basis-5/12 ">
                                         <div className="">
                                             <h2 className="title md:text-5xl text-[2rem] font-extrabold tracking-[3px] text-white uppercase leading-none mt-0 mb-7 mx-0 ">a look into roadmaps seasons</h2>
 
@@ -33,8 +33,8 @@ function RoadMap() {
                                         </div>
                                     </div>
 
-                                    <div className="lm:w-7/12 w-full basis-7/12 relative px-0 lx:px-[15px]">
-                                        <div className=" relative ml-0 lm:ml-[60px] before:content-[''] before:absolute before:w-1.5 before:h-full before:rounded-[5px] before:left-0 before:top-0 before:bg-gradient-to-t before:from-[#10161c] before:to-green">
+                                    <div className="relative w-full px-0 lg:w-7/12 basis-7/12 md:px-4">
+                                        <div className=" relative ml-0 lg:ml-[60px] before:content-[''] before:absolute before:w-1.5 before:h-full before:rounded-[5px] before:left-0 before:top-0 before:bg-gradient-to-t before:from-[#10161c] before:to-green">
                                             <div className=" bg-[#1b242e] py-6 px-3 drop-shadow-[0px_3px_7px_0px_rgba(0,0,0,0.21)] relative ml-11 mr-0 mt-0 mb-5 p-ml-11 rounded-lg before:content-[''] before:absolute before:left-[-34px] before:-translate-y-2/4 before:w-0 before:h-0 before:border-solid before:top-2/4 last:mb-0 before:border-t-[20px] before:border-r-0 before:border-b-[20px] before:border-l-[18px] before:border-[transparent_transparent_transparent_#45f882] active before:opacity-[0.9] sm:ml-[35px] sm:mr-0 sm:mt-0 sm:mb-5 sm:px-[25px] ">
                                                 <h3 className="mx-0 mt-0 mb-6 text-3xl font-extrabold leading-none text-white uppercase lg:text-3xl sm:text-2xl xsm:text-2xl">season 1</h3>
 

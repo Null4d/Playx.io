@@ -10,11 +10,13 @@ module.exports = {
       minWidth: {
         '195px': '195px',
         '100px': '100px',
+        '561px': '561px',
       },
 
       padding: {
         '49px': '49px',
         '0.875': '0.875rem',
+        'minus-15px': '-15px',
       },
 
       width: {
@@ -25,12 +27,20 @@ module.exports = {
         '570px': '570px',
         '780px': '780px',
         '815px': '815px',
+        '685px': '685px',
+        '363px': '363px',
+        '75px': '75px',
         '28': '28rem',
         '30%': '30.333%',
       },
 
       height: {
         '84px': '84px',
+        '681px': '681px',
+        '440px': '440px',
+        '487px': '487px',
+        '75px': '75px',
+        '44rem': '44rem',
       },
 
       backgroundImage: {
@@ -60,6 +70,7 @@ module.exports = {
       margin: {
         'minus-15px': '-15px',
         'minus-45px': '-45px',
+        'minus-35px': '-35px',
       },
 
       padding: {
@@ -71,6 +82,7 @@ module.exports = {
         '1536px': '1536px',
         '700px': '700px',
         '960px': '960px',
+        '77%': '77%',
       },
 
       flexBasis: {
@@ -86,14 +98,14 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      'lm': '992px',
-      'lx': '580px',
-      'mcc': '1200px',
       '2xl': '1536px',
     },
     maskImage: {
       image: 'url(/src/img/others/mask_bg01.png)',
       image2: 'url(/src/img/others/mask_bg02.png)',
+    },
+    rotate: {
+      'minus-40px': '-40px',
     },
 
     // backgroundImage: {

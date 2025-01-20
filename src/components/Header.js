@@ -11,7 +11,7 @@ const Header = ({ toggleSidebar }) => {
                     <div className="flex flex-wrap w-full">
                         <div className="relative w-full px-5 mx-auto max-w-screen-2xl basis-full">
                             <div className="header-menu">
-                                <nav className="flex flex-wrap items-center justify-start w-full">
+                                <nav className="flex flex-wrap items-center justify-start w-full pt-5 xl:pt-0">
                                     <div className="flex items-center">
                                         <a className="inline-block" href="index.html">
                                             <img className='w-48' src={logo} alt="logo" />
@@ -19,7 +19,7 @@ const Header = ({ toggleSidebar }) => {
                                     </div>
 
                                     <div className="flex justify-center navbar-wrap grow">
-                                        <ul className="flex-row flex-wrap hidden navigation mcc:flex xl:ml-16 2xl:ml-28">
+                                        <ul className="flex-row flex-wrap hidden navigation xl:flex xl:ml-16 2xl:ml-28">
                                             <li className="relative block list-none group">
                                                 <Link to="/" className="text-base font-bold uppercase block leading-none relative tracking-[0.8px] z-3 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:transition-all before:duration-150 before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green text-green before:opacity-100 before:-translate-y-2/4 before:rotate-[-40deg]">
                                                     HOME
