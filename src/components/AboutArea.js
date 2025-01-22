@@ -5,7 +5,7 @@ import circle from '../img/others/circle.png';
 function AboutArea() {
     return (
         <>
-            <section className="py-32  bg-[#10181f] relative z-[1] sm:py-24">
+            <section className="relative py-32 bg-BlackBlue z-1 sm:py-24">
                 <div className="container mx-auto">
                     <div className='mx-auto max-w-960px xl:max-w-full'>
                         <div className="flex flex-col flex-wrap 2xl:flex-row mx-minus-15px">
@@ -30,7 +30,7 @@ function AboutArea() {
 
                                     <div className='relative'>
                                         <img className='object-cover mx-auto right w-685px h-440px lg:mr-auto 2xl:h-full 2xl:w-full' src={maskImage2} alt="logo" />
-                                        <div className="bg-[#10181f] w-56 py-4 absolute hidden lg:flex justify-end items-center text-green top-0 right-0 animate-[xAnimation_5s_infinite] ">
+                                        <div className="bg-BlackBlue w-56 py-4 absolute hidden lg:flex justify-end items-center text-green top-0 right-0 animate-[xAnimation_5s_infinite] ">
                                             <svg className="block h-10 moving-svg w-36 2xl:w-24 2xl:h-8" width="109" height="35" viewBox="0 0 109 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M9 0H0V7H9V0Z" fill="currentcolor"></path>
                                                 <path d="M24 0H15V7H24V0Z" fill="currentcolor"></path>

@@ -22,7 +22,7 @@ function AboutServices() {
 
     return (
         <>
-            <section className="pt-32 pb-32 bg-[#040608]">
+            <section className="pt-32 pb-32 bg-BlackBlue">
                 <div className="container mx-auto">
                     <div className="relative flex flex-col items-end xl:flex-row align-items-xl-start">
                         <div className="relative w-full px-0 md:px-4 lg:px-28 xl:px-4 pb-28 xl:w-6/12 basis-6/12">
