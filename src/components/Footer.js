@@ -8,7 +8,7 @@ import Payment from '../img/icons/payment_card.png';
 function Footer() {
     return (
         <>
-            <footer className="footer-style-one bg-[#0e1418]">
+            <footer className="footer-style-one bg-BlackBlue">
                 <div className="flex justify-center px-0 pt-20 pb-8 border-t border-solid footer__top-wrap border-t-BlackBlue">
                     <div className="w-full max-w-full px-5 sm:container">
                         <div className="flex-wrap items-center w-full sm:flex">
