@@ -60,6 +60,7 @@ module.exports = {
         '2': '2',
         '1': '1',
         'minus-1': '-1',
+        'minus-2': '-2',
       },
 
       transitionDuration: {

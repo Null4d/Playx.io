@@ -191,3 +191,9 @@ i[class*="flaticon-"] {
 .flaticon-play-button:before {
     content: "\f139";
 }
+
+.flaticon-play-cup:before {
+    content: "\f091";
+}
+
+
