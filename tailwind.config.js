@@ -53,6 +53,7 @@ module.exports = {
         'grey': '#adb0bc',
         'BlackBlue': '#040608',
         'customDark': '#0b0e13',
+        'LightBlue': '#10181f',
       },
 
       zIndex: {

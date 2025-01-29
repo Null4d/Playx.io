@@ -6,7 +6,7 @@ import tournament3 from '../img/others/tournament03.jpg';
 function TournamentPlay() {
     return (
         <>
-            <section class="pt-32 pb-24  bg-[#10181f]">
+            <section class="pt-32 pb-24  bg-LightBlue">
                 <div class="max-w-full  md:container mx-auto">
                     <div class="px-0 xl:px-20 py-0">
                         <div className="flex flex-wrap justify-center mx-4">
@@ -23,7 +23,7 @@ function TournamentPlay() {
                             </div>
                         </div>
 
-                        <div class="flex flex-col items-center lg:items-baseline lg:flex-row flex-wrap mx-minus-15px justify-center gutter-25">
+                        <div class="flex flex-col items-center lg:items-baseline lg:flex-row flex-wrap mx-0 md:mx-minus-15px justify-center gutter-25">
                             <div class="w-11/12 md:w-3/5 lg:w-4/12 basis-4/12 relative px-3 xl:px-4">
                                 <div class="relative overflow-hidden duration-500 z-1 mt-0 mb-8 mx-0 pt-6 pb-12 px-8 rounded-[0_0_17px_17px] hover:translate-y-[-7px] before:content-[''] before:absolute before:-translate-x-2/4 before:w-[90px] before:h-[90px] before:blur-[50px] before:transition-all before:duration-300 before:before:delay-0 before:z-minus-1 before:left-2/4 before:top-[20%] before:bg-[radial-gradient(circle,#45f882_0%,transparent_100%)] md:border md:pt-6 md:pb-10 md:px-8 md:rounded-[17px] md:border-solid md:border-[#212d38] md:bg-[#19222b] sm:border sm:pt-6 sm:pb-10 sm:px-8 sm:rounded-[17px] sm:border-solid sm:border-[#212d38] sm:bg-[#19222b] xsm:border xsm:pt-6 xsm:pb-10 xsm:px-8 xsm:rounded-[17px] xsm:border-solid xsm:border-[#212d38] xsm:bg-[#19222b]">
                                     <svg class="absolute w-full h-auto z-minus-2 left-0 top-0 block md:hidden sm:hidden xsm:hidden" x="0px" y="0px" preserveAspectRatio="none" viewBox="0 0 357 533" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,7 +92,7 @@ function TournamentPlay() {
                             </div>
 
                             <div class="w-11/12 md:w-3/5 lg:w-4/12 basis-4/12 relative px-3 xl:px-4">
-                                <div class="relative overflow-hidden  duration-500  z-1 mt-0 mb-8 mx-0 pt-6 pb-12 px-8 rounded-[0_0_17px_17px] hover:translate-y-[-7px] before:content-[''] before:absolute before:-translate-x-2/4 before:w-[90px] before:h-[90px] before:blur-[50px] before:transition-all before:duration-300 before:before:delay-0 before:z-minus-1 before:left-2/4 before:top-[20%] before:bg-[radial-gradient(circle,#ffbe18_0%,transparent_100%)] md:border md:pt-6 md:pb-10 md:px-8 md:rounded-[17px] md:border-solid md:border-[#212d38] md:bg-[#19222b] sm:border sm:pt-6 sm:pb-10 sm:px-8 sm:rounded-[17px] sm:border-solid sm:border-[#212d38] sm:bg-[#19222b] xsm:border xsm:pt-6 xsm:pb-10 xsm:px-8 xsm:rounded-[17px] xsm:border-solid xsm:border-[#212d38] xsm:bg-[#19222b] active">
+                                <div class="relative overflow-hidden duration-500 z-1 mt-0 mb-8 mx-0 pt-6 pb-12 px-8 rounded-[0_0_17px_17px] hover:translate-y-[-7px] before:content-[''] before:absolute before:-translate-x-2/4 before:w-[90px] before:h-[90px] before:blur-[50px] before:transition-all before:duration-300 before:before:delay-0 before:z-minus-1 before:left-2/4 before:top-[20%] before:bg-[radial-gradient(circle,#ffbe18_0%,transparent_100%)] md:border md:pt-6 md:pb-10 md:px-8 md:rounded-[17px] md:border-solid md:border-[#212d38] md:bg-[#19222b] sm:border sm:pt-6 sm:pb-10 sm:px-8 sm:rounded-[17px] sm:border-solid sm:border-[#212d38] sm:bg-[#19222b] xsm:border xsm:pt-6 xsm:pb-10 xsm:px-8 xsm:rounded-[17px] xsm:border-solid xsm:border-[#212d38] xsm:bg-[#19222b] active">
                                     <svg class="absolute w-full h-auto z-minus-2 left-0 top-0 block md:hidden sm:hidden xsm:hidden" x="0px" y="0px" preserveAspectRatio="none" viewBox="0 0 357 533" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.00021 63H103C103 63 114.994 62.778 128 50C141.006 37.222 168.042 13.916 176 10C183.958 6.084 193 1.9 213 2C233 2.1 345 1 345 1C347.917 1.66957 350.51 3.33285 352.334 5.70471C354.159 8.07658 355.101 11.0093 355 14C355.093 25.1 356 515 356 515C356 515 357.368 529.61 343 530C328.632 530.39 15.0002 532 15.0002 532C15.0002 532 0.937211 535.85 1.00021 522C1.06321 508.15 2.00021 63 2.00021 63Z" fill="#19222B" stroke="#4C4C4C" stroke-width="0.25"></path>
                                     </svg>

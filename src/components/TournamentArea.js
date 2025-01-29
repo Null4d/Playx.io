@@ -6,11 +6,11 @@ function NftItems() {
             <section className="bg-[url('/src/img/bg/breadcrumb_bg01.jpg')] relative bg-center bg-cover min-h-[561px] flex items-center pt-28 pb-20 px-0">
                 <div className="container mx-auto">
                     <div className="relative px-0 py-0 lg:px-20 breadcrumb__wrapper">
-                        <div className="flex flex-col flex-wrap md:flex-row mx-minus-15px">
+                        <div className="flex flex-col flex-wrap mx-0 md:flex-row md:mx-minus-15px">
 
-                            <div className="relative w-full px-4 basis-full lg:w-6/12 lg:basis-6/12">
+                            <div className="relative w-full px-0 md:px-4 basis-full lg:w-6/12 lg:basis-6/12">
                                 <div className="text-center lg:text-left">
-                                    <h2 className="m-0 text-6xl font-extrabold leading-none tracking-wider text-white uppercase title">
+                                    <h2 className="m-0 text-5xl font-extrabold leading-none tracking-wider text-white uppercase md:text-6xl title">
                                         Tournament
                                     </h2>
                                     <nav aria-label="breadcrumb" className="w-full mt-3">
