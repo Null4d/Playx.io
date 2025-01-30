@@ -6,8 +6,8 @@ import tournament3 from '../img/others/tournament03.jpg';
 function TournamentPlay() {
     return (
         <>
-            <section class="pt-32 pb-24  bg-LightBlue">
-                <div class="max-w-full  md:container mx-auto">
+            <section class="pt-32 pb-24 bg-LightBlue">
+                <div class="max-w-full md:container mx-auto">
                     <div class="px-0 xl:px-20 py-0">
                         <div className="flex flex-wrap justify-center mx-4">
                             <div className="relative w-full px-4 md:w-6/12 basis-6/12">
