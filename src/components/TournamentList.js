@@ -1,4 +1,6 @@
 import tournamentThumb1 from '../img/others/tournament_thumb01.png';
+import tournamentThumb2 from '../img/others/tournament_thumb02.png';
+import tournamentThumb3 from '../img/others/tournament_thumb03.png';
 
 
 
@@ -32,7 +34,7 @@ function TournamentList() {
                                             </a>
                                         </div>
 
-                                        <div class="w-full lg:w-52 flex-[0_0_auto] relative z-1 lg:py-0 pl-10 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%] before:to-[#10181f_100%] after:content-[''] after:absolute after:-translate-y-2/4 after:h-[60px] after:w-[3px] after:left-0 after:top-2/4 after:bg-[#121920]">
+                                        <div class="w-full lg:w-52 flex-[0_0_auto] relative z-1 lg:py-0 pl-7 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%] before:to-[#10181f_100%] after:content-[''] after:absolute after:-translate-y-2/4 after:h-[60px] after:w-[3px] after:left-0 after:top-2/4 after:bg-[#121920]">
                                             <h5 class="text-xl mt-0 mb-2 mx-0 uppercase text-white font-bold">FoxTie Max</h5>
                                             <span class="block uppercase text-sm font-bold tracking-wider text-green relative leading-none transition-all duration-500 delay-[0s] pl-[13px] before:content-[''] before:absolute before:w-2 before:h-2 before:rounded-[50%] before:left-0 before:top-[3px] font-Barlow before:bg-green group-hover:text-amber-400 ">Online</span>
                                         </div>
@@ -59,23 +61,23 @@ function TournamentList() {
                                     <div class="grid-cols-2 grid lg:grid-cols-none lg:flex border-white border lg:border-0 flex-wrap lg:flex-none gap-y-20 lg:gap-0 p-7 2xl:py-12 lg:pl-14 2xl:pl-16 rounded-8px bg-[#19222b] lg:bg-transparent lg:bg-[url('/src/img/others/tournamentbg.svg')] bg-[length:100%_auto] bg-no-repeat items-center">
                                         <div class="w-full lg:w-32 xl:w-40 2xl:w-56 flex-[0_0_auto]">
                                             <a href="tournament-details.html">
-                                                <img className="mr-0 2xl:pl-4 max-h-24 xl:max-h-28 " src={tournamentThumb1} alt="tournamentThumb1" />
+                                                <img className="mr-0 2xl:pl-4 max-h-24 xl:max-h-28 " src={tournamentThumb2} alt="tournamentThumb2" />
                                             </a>
                                         </div>
 
-                                        <div class="w-full lg:w-52 flex-[0_0_auto] relative z-1 lg:py-0 pl-10 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%] before:to-[#10181f_100%] after:content-[''] after:absolute after:-translate-y-2/4 after:h-[60px] after:w-[3px] after:left-0 after:top-2/4 after:bg-[#121920]">
-                                            <h5 class="text-xl mt-0 mb-2 mx-0 uppercase text-white font-bold">FoxTie Max</h5>
+                                        <div class="w-full lg:w-52 flex-[0_0_auto] relative z-1 lg:py-0 pl-7 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%] before:to-[#10181f_100%] after:content-[''] after:absolute after:-translate-y-2/4 after:h-[60px] after:w-[3px] after:left-0 after:top-2/4 after:bg-[#121920]">
+                                            <h5 class="text-xl mt-0 mb-2 mx-0 uppercase text-white font-bold">Hatlax TM.</h5>
                                             <span class="block uppercase text-sm font-bold tracking-wider text-green relative leading-none transition-all duration-500 delay-[0s] pl-[13px] before:content-[''] before:absolute before:w-2 before:h-2 before:rounded-[50%] before:left-0 before:top-[3px] font-Barlow before:bg-green group-hover:text-amber-400 ">Online</span>
                                         </div>
 
                                         <div class="w-full lg:w-56 flex-[0_0_auto] relative pl-0 lg:pl-12 xl:pl-16 before:hidden lg:before:flex before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%]">
                                             <h6 class=" text-lg text-grey tracking-wider mt-0 mb-1 uppercase font-bold mx-0">Prize</h6>
-                                            <span class="text-green text-lg font-semibold tracking-wider transition-all duration-500 delay-[0s] font-Barlow group-hover:text-amber-400">🏆 $75000</span>
+                                            <span class="text-green text-lg font-semibold tracking-wider transition-all duration-500 delay-[0s] font-Barlow group-hover:text-amber-400">🏆 $45000</span>
                                         </div>
 
                                         <div class="w-full lg:w-56 flex-[0_0_auto] relative pl-8 lg:pl-12 text-right lg:text-start xl:pl-16 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%]">
                                             <h6 class="text-lg text-grey tracking-wider mt-0 mb-1 uppercase font-bold mx-0">Time</h6>
-                                            <span class="text-grey text-lg font-semibold uppercase tracking-wider font-Barlow">🕒 10h : 15m</span>
+                                            <span class="text-grey text-lg font-semibold uppercase tracking-wider font-Barlow">🕒 12h : 10m</span>
                                         </div>
 
                                         <div class="col-span-2 ml-auto flex-[0_0_auto] mx-auto">
@@ -90,18 +92,18 @@ function TournamentList() {
                                     <div class="grid-cols-2 grid lg:grid-cols-none lg:flex border-white border lg:border-0 flex-wrap lg:flex-none gap-y-20 lg:gap-0 p-7 2xl:py-12 lg:pl-14 2xl:pl-16 rounded-8px bg-[#19222b] lg:bg-transparent lg:bg-[url('/src/img/others/tournamentbg.svg')] bg-[length:100%_auto] bg-no-repeat items-center">
                                         <div class="w-full lg:w-32 xl:w-40 2xl:w-56 flex-[0_0_auto]">
                                             <a href="tournament-details.html">
-                                                <img className="mr-0 2xl:pl-4 max-h-24 xl:max-h-28 " src={tournamentThumb1} alt="tournamentThumb1" />
+                                                <img className="mr-0 2xl:pl-4 max-h-24 xl:max-h-28 " src={tournamentThumb3} alt="tournamentThumb3" />
                                             </a>
                                         </div>
 
-                                        <div class="w-full lg:w-52 flex-[0_0_auto] relative z-1 lg:py-0 pl-10 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%] before:to-[#10181f_100%] after:content-[''] after:absolute after:-translate-y-2/4 after:h-[60px] after:w-[3px] after:left-0 after:top-2/4 after:bg-[#121920]">
-                                            <h5 class="text-xl mt-0 mb-2 mx-0 uppercase text-white font-bold">FoxTie Max</h5>
+                                        <div class="w-full lg:w-52 flex-[0_0_auto] relative z-1 lg:py-0 pl-7 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%] before:to-[#10181f_100%] after:content-[''] after:absolute after:-translate-y-2/4 after:h-[60px] after:w-[3px] after:left-0 after:top-2/4 after:bg-[#121920]">
+                                            <h5 class="text-xl mt-0 mb-2 mx-0 uppercase text-white font-bold">Spartan iv</h5>
                                             <span class="block uppercase text-sm font-bold tracking-wider text-green relative leading-none transition-all duration-500 delay-[0s] pl-[13px] before:content-[''] before:absolute before:w-2 before:h-2 before:rounded-[50%] before:left-0 before:top-[3px] font-Barlow before:bg-green group-hover:text-amber-400 ">Online</span>
                                         </div>
 
                                         <div class="w-full lg:w-56 flex-[0_0_auto] relative pl-0 lg:pl-12 xl:pl-16 before:hidden lg:before:flex before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%]">
                                             <h6 class=" text-lg text-grey tracking-wider mt-0 mb-1 uppercase font-bold mx-0">Prize</h6>
-                                            <span class="text-green text-lg font-semibold tracking-wider transition-all duration-500 delay-[0s] font-Barlow group-hover:text-amber-400">🏆 $75000</span>
+                                            <span class="text-green text-lg font-semibold tracking-wider transition-all duration-500 delay-[0s] font-Barlow group-hover:text-amber-400">🏆 $85000</span>
                                         </div>
 
                                         <div class="w-full lg:w-56 flex-[0_0_auto] relative pl-8 lg:pl-12 text-right lg:text-start xl:pl-16 before:content-[''] before:absolute before:-translate-y-2/4 before:h-12 before:w-px before:opacity-[0.18] before:z-1 before:left-px before:top-2/4 before:bg-[radial-gradient(circle,_var(--tw-gradient-stops))] before:from-[#fff_0%] before:via-[transparent_100%]">
@@ -116,7 +118,6 @@ function TournamentList() {
                                 </div>
                             </div>
                         </div>
-
 
                     </div>
                 </div>
