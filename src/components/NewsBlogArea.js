@@ -70,7 +70,7 @@ const NewsGamingArea = () => {
     return (
         <section className="px-0 bg-[#0f161b] py-32">
             <div className="container mx-auto">
-                <div className="flex flex-col items-center justify-center lg:flex-row lg:mx-minus-15px">
+                <div className="flex flex-col items-center justify-center lg:items-start lg:flex-row lg:mx-minus-15px">
                     {/* Main Blog Posts */}
                     <div className="w-full lg:w-[69%] flex-[0_0_auto] px-4">
                         {blogPosts.map((post, index) => (
@@ -227,7 +227,7 @@ const NewsGamingArea = () => {
                         </aside>
                     </div>
                 </div>
-                
+
                 {/* Navigation */}
                 <div className="mx-0 mt-16 mb-0 ">
                     {/* Pagination Container */}
