@@ -194,34 +194,34 @@ function PagesGamingShop() {
 
                         <div className="order-3 mx-0 mt-5 mb-0">
                             {/* Pagination Container */}
-                            <ul className="list-wrap m-0 p-0 flex flex-wrap justify-center gap-[10px_15px] sm:gap-[10px] xsm:gap-[10px]">
+                            <ul className="m-0 p-0 flex flex-wrap justify-center gap-[10px_15px] sm:gap-[10px] xsm:gap-[10px]">
 
                                 <li>
-                                    <a href="#" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
+                                    <a href="#b" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
                                         01
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="flex items-center justify-center px-4 py-3 border font-bold rounded-[5px] border-solid font-Barlow current bg-none border-green bg-green text-[#201f2a]">
+                                    <a href="#b" className="flex items-center justify-center px-4 py-3 border font-bold rounded-[5px] border-solid font-Barlow current bg-none border-green bg-green text-[#201f2a]">
                                         02
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
+                                    <a href="#b" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
                                         03
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
+                                    <a href="#b" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
                                         ....
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
+                                    <a href="#b" className="flex items-center justify-center px-4 py-3 bg-[linear-gradient(0deg,#1215187d_0%,#1f29355c_100%)] bg-gray-950 border border-gray-700 text-[#adb0bc] font-bold rounded-[5px] border-solid font-Barlow">
                                         →
                                     </a>
                                 </li>

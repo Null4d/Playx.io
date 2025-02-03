@@ -20,6 +20,12 @@ i[class*="flaticon-"] {
     line-height: 0;
 }
 
+.icon-up-arrow {
+    font-family: "flaticon"; 
+    content: "\f106";
+    font-size: 24px; 
+}
+
 .flaticon-internet:before {
     content: "\f101";
 }
