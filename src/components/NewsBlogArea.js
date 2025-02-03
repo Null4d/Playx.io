@@ -127,8 +127,8 @@ const NewsGamingArea = () => {
                             <div className="mx-0 mt-0 mb-14">
                                 <form className="relative">
                                     <div className="relative flex items-center">
-                                        <input className="flex-1 text-sm font-medium border text-white pl-6 pr-12 py-4 border-[none] border-solid border-[#232a30] bg-[#182029] placeholder:uppercase placeholder:text-sm placeholder:text-grey placeholder:opacity-[0.54] placeholder:font-medium" type="text" placeholder="Search here.." style={{ clipPath: 'polygon(100%_0,_100%_calc(100%_-_20px),_calc(100%_-_20px)_100%,_0_100%,_0_0)' }} />
-                                        <button className="absolute right-[30px] text-white text-[18px] p-0 border-[none] hover:text-green bg-transparent" type="button"><i className="flaticon-loupe"></i></button>
+                                        <input className="flex-1 text-sm font-medium border text-white pl-6 pr-12 py-4 border-solid hover:border-[#232a30] border-[#232a30] bg-[#182029] outline-none placeholder:uppercase placeholder:text-sm placeholder:text-grey placeholder:opacity-[0.54] placeholder:font-medium" type="text" placeholder="Search here.." style={{ clipPath: 'polygon(100%_0,_100%_calc(100%_-_20px),_calc(100%_-_20px)_100%,_0_100%,_0_0)' }} />
+                                        <button className="absolute right-[30px] text-white text-[18px] p-0 border-none hover:text-green bg-transparent" type="button"><i className="flaticon-loupe"></i></button>
                                     </div>
                                 </form>
                             </div>

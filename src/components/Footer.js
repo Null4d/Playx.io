@@ -62,9 +62,9 @@ function Footer() {
                                     <h4 className="mx-0 mt-0 text-xl font-bold text-white uppercase mb-7 ">Newsletter</h4>
                                     <div className="">
                                         <p className="mx-0 mt-0 mb-5 text-base text-grey">Subscribe our newsletter to get our latest update &amp; newsconsectetur</p>
-                                        <form action="#" className="relative">
-                                            <input type="email" placeholder="Your email address" className="block w-full rounded-8px text-base h-14 pl-5 pr-24 py-4 rounded-md border-none bg-[#1f2935] placeholder:text-base focus:ring-0 focus:!border-none" />
-                                            <button type="submit" className="absolute w-16 h-full text-3xl text-BlackBlue flex items-center justify-center p-2.5 rounded-md border-0 right-0 top-0 bg-green hover:bg-amber-400">
+                                        <form action="#" className="relative flex">
+                                            <input type="email" placeholder="Your email address" className="block rounded-r-[0px] w-full outline-none text-white rounded-8px text-base h-14 pl-5 pr-24 py-4 rounded-md border-none bg-[#1f2935] placeholder:text-base focus:ring-0 focus:!border-none" />
+                                            <button type="submit" className="top-0 right-0 flex items-center justify-center w-20 text-3xl duration-500 border-0 rounded-md h-14 text-BlackBlue bg-green hover:bg-amber-400">
                                                 <i className="flaticon-paper-plane"></i>
                                             </button>
                                         </form>

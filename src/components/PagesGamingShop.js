@@ -22,7 +22,7 @@ function PagesGamingShop() {
                                     </h4>
                                     <div className="border p-5 rounded-[0_0_5px_5px] border-solid border-gray-900 bg-gray-950">
                                         <div className="flex items-center leading-none">
-                                            <input type="text" placeholder="Search here" className="block grow font-medium pl-0 pr-5 py-0 bg-transparent placeholder:opacity-65 placeholder:font-medium border-none focus:!ring-0 focus:!border-none" />
+                                            <input type="text" placeholder="Search here" className="block grow outline-none text-white font-medium pl-0 pr-5 py-0 bg-transparent placeholder:opacity-65  placeholder:font-medium border-none focus:!ring-0 focus:!border-none" />
                                             <button className="p-0 text-sm duration-300 -rotate-90 bg-transparent border-0 text-grey hover:text-green">
                                                 <i className="flaticon-search"></i>
                                             </button>
