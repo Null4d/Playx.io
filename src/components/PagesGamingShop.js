@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import product1 from '../img/galerry/product01.jpg';
 import product2 from '../img/galerry/product02.jpg';
 import product3 from '../img/galerry/product03.jpg';
@@ -63,9 +64,9 @@ function PagesGamingShop() {
                                         {[{ src: product2, name: "Headphone", price: "$350" }, { src: product3, name: "Replika Axe", price: "$230" }, { src: product6, name: "Ultima Axe", price: "$120" }].map((product, index) => (
                                             <div key={index} className={`flex items-center ${index < 2 ? 'mb-5' : 'm-0'} related__products-item`}>
                                                 <div className="related__products-thumb w-20 h-20 flex-[0_0_auto] mr-5">
-                                                    <a href="#b">
-                                                        <img className="border border-gray-800 border-solid rounded-8px" src={product.src} alt={product.name} />
-                                                    </a>
+                                                    <Link to="/PagesShop" aria-label={product.title}>
+                                                        <img className="rounded-lg" src={product.src} alt={product.alt} />
+                                                    </Link>
                                                 </div>
                                                 <div className="related__products-content grow">
                                                     <h4 className="mt-0 mb-1 text-sm product-name">
@@ -147,14 +148,14 @@ function PagesGamingShop() {
                                     ].map((product, index) => (
 
                                         <div key={index} className="px-4">
-                                            <div className="w-full rounded-8px bg-[#161d24] bg-contain bg-[top_center] bg-no-repeat m-[0_auto_35px] pt-5 px-5 pb-12">
+                                            <div className="w-full rounded-8px bg-[#161d24] m-[0_auto_35px] pt-5 px-5 pb-12">
 
                                                 {/* Product Image and Wishlist Button Container */}
                                                 <div className="relative flex items-center justify-center min-h-[262px] rounded-lg bg-[#0f161b]">
                                                     {/* Link wrapping the product image that navigates to product details */}
-                                                    <a href="#b" aria-label={product.title}>
+                                                    <Link to="/PagesShop" aria-label={product.title}>
                                                         <img className="rounded-lg" src={product.src} alt={product.alt} />
-                                                    </a>
+                                                    </Link>
                                                     {/* Wishlist button: an empty link with an aria-label for accessibility */}
                                                     <a href="#b" className="absolute leading-none wishlist-button text-grey right-5 top-5 hover:text-green" aria-label={`Add ${product.title} to wishlist`}></a>
                                                 </div>

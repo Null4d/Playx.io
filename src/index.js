@@ -5,6 +5,7 @@ import App from "../src/App";
 import About from "../src/pages/AboutUs";
 import Tournament from "../src/pages/Tournament";
 import Pages from "../src/pages/Pages";
+import PagesShop from "../src/pages/PagesShop";
 import News from "../src/pages/News";
 
 
@@ -17,6 +18,7 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/Tournament" element={<Tournament />} />
         <Route path="/Pages" element={<Pages />} />
+        <Route path="/PagesShop" element={<PagesShop />} />
         <Route path="/News" element={<News />} />
       </Routes>
     </Router>

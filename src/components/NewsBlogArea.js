@@ -213,15 +213,15 @@ const NewsGamingArea = () => {
                             </div>
 
                             {/* Tag Cloud Widget using map */}
-                            <div class="m-0">
-                                <h4 class="text-2xl mt-0 mb-8 font-bold text-white uppercase mx-0">Tag Cloud</h4>
-                                <div class="flex flex-wrap gap-2.5">
-                                    <a class="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>E-sports</a>
-                                    <a class="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>Fantasy</a>
-                                    <a class="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>game</a>
-                                    <a class="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }} >Tournaments</a>
-                                    <a class="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>Matches</a>
-                                    <a class="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>Streamers</a>
+                            <div className="m-0">
+                                <h4 className="mx-0 mt-0 mb-8 text-2xl font-bold text-white uppercase">Tag Cloud</h4>
+                                <div className="flex flex-wrap gap-2.5">
+                                    <a className="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>E-sports</a>
+                                    <a className="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>Fantasy</a>
+                                    <a className="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>game</a>
+                                    <a className="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }} >Tournaments</a>
+                                    <a className="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>Matches</a>
+                                    <a className="block text-sm duration-300 font-bold uppercase text-grey border px-6 py-3 border-solid border-[#232a30] hover:border-green hover:text-[#0f161b] bg-[#182029] hover:bg-green" href="#b" style={{ clipPath: 'polygon(100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 0 100%, 0 0)' }}>Streamers</a>
                                 </div>
                             </div>
                         </aside>
