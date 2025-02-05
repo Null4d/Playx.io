@@ -93,10 +93,17 @@ const NewsGamingArea = () => {
                                     <p className="pb-5 text-base font-semibold lg:text-lg text-grey">{post.description}</p>
                                     {/* Bottom Section */}
                                     <div className="flex justify-between flex-wrap gap-[10px_0] mt-9 mb-0 mx-0">
-                                        <div className="mr-5">
-                                            <a className="block text-sm font-bold leading-none tracking-wider duration-300 text-grey hover:text-green" href={post.link}>READ MORE</a>
+                                        <div className="flex mr-5 text-grey hover:text-green">
+                                            <a className="block pr-2 text-sm font-bold leading-none tracking-wider duration-300" href={post.link}>READ MORE</a>
+                                            <i className='text-lg font-bold duration-300 text-green rotate-icon flaticon-right-arrow-1'></i>
                                         </div>
-                                        <button className="text-sm font-bold leading-none tracking-wider uppercase duration-300 text-grey hover:text-green">Share :</button>
+
+                                        <div className='flex items-center gap-4'>
+                                            <button className="text-sm font-bold leading-none tracking-wider uppercase duration-300 text-grey hover:text-green">Share :</button>
+                                            <i className='duration-300 text-grey hover:text-green flaticon-facebook'></i>
+                                            <i className='duration-300 text-grey hover:text-green flaticon-twitter'></i>
+                                            <i className='duration-300 text-grey hover:text-green flaticon-twitch'></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

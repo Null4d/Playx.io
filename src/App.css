@@ -266,3 +266,12 @@
 .circle-rotation {
   animation: circleRotation 12s linear infinite;
 }
+
+.rotate-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+  transform: rotate(-50deg);
+}
+
+.rotate-icon:hover {
+  transform: rotate(0deg);
+}
