@@ -40,7 +40,7 @@ function BlogDetailsArea() {
                 <div class="max-w-2xl md:container mx-auto">
                     <div class="flex flex-wrap mx-minus-15px  justify-center ">
                         {/* Mainbar */}
-                        <div class="w-full lg:w-4/5 xl:w-[69%] flex-[0_0_auto] px-8 md:px-4">
+                        <div class="w-full lg:w-4/5 xl:w-[69%] px-8 md:px-4">
                             {/* Blog Post Container */}
                             <div class="mt-0 mb-16 mx-0">
                                 {/* Blog Post Image Section */}
@@ -287,7 +287,7 @@ function BlogDetailsArea() {
 
 
                         {/* Sidebar */}
-                        <div className="w-full md:w-4/5 lg:w-2/5 xl:w-[31%] pt-24 xl:pt-0 flex-[0_0_auto] px-8 md:px-0">
+                        <div className="w-full md:w-4/5 lg:w-2/5 xl:w-[31%] pt-24 xl:pt-0 px-8 md:px-0">
                             <aside className="ml-0 lg:ml-5">
                                 {/* Author Widget */}
                                 <div className="mx-0 mt-0 mb-14">
