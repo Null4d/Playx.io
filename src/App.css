@@ -130,9 +130,28 @@
 }
 
 .pagesShopBtn:hover {
-  --tw-bg-opacity: 1;
   background-color: rgb(255 190 24 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
+  color: rgb(15 22 27 / var(--tw-text-opacity));
+}
+
+.BlogBtn {
+  display: block;
+  padding: 20px 40px;
+  border-color: none;
+  background-color: rgb(69 248 130 / var(--tw-bg-opacity));
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgb(15 22 27 / var(--tw-text-opacity));
+  -webkit-clip-path: polygon(100% 0, 100% 65%, 89% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 65%, 89% 100%, 0 100%, 0 0);
+}
+
+.BlogBtn:hover {
+  background-color: rgb(255 190 24 / var(--tw-bg-opacity));
   color: rgb(15 22 27 / var(--tw-text-opacity));
 }
 
@@ -275,3 +294,4 @@
 .rotate-icon:hover {
   transform: rotate(0deg);
 }
+

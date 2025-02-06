@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import BlogPost1 from '../img/galerry/blog_post01.jpg';
 import BlogPost2 from '../img/galerry/blog_post02.jpg';
 import BlogPost3 from '../img/galerry/blog_post03.jpg';
@@ -23,7 +24,6 @@ const NewsGamingArea = () => {
             description:
                 "Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum solliciin is yaugue euismods Nulla ullaorper. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
             date: "Aug 19, 2023",
-            link: "#b",
         },
         {
             src: BlogPost2,
@@ -32,7 +32,6 @@ const NewsGamingArea = () => {
             description:
                 "Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum solliciin is yaugue euismods Nulla ullaorper. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
             date: "Aug 16, 2023",
-            link: "#b",
         },
         {
             src: BlogPost3,
@@ -41,7 +40,6 @@ const NewsGamingArea = () => {
             description:
                 "Lorem ipsum dolor sit amet, consteur adipiscing Duis elementum solliciin is yaugue euismods Nulla ullaorper. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
             date: "Aug 16, 2023",
-            link: "#b",
         },
     ];
 
@@ -75,7 +73,9 @@ const NewsGamingArea = () => {
                     <div className="w-full lg:w-[69%] flex-[0_0_auto] px-4">
                         {blogPosts.map((post, index) => (
                             <div key={index} className="mx-0 mt-0 mb-12">
-                                <a href={post.link}><img className="w-full max-w-full" src={post.src} alt={post.alt} /></a>
+                                <Link to="/NewsBlog" className="w-full max-w-full">
+                                    <img className="w-full max-w-full" src={post.src} alt={post.alt} />
+                                </Link>
                                 <div className="border pl-10 pr-[45px] py-10 border-solid border-[#232a30] bg-[#182029] clip-path-polygon-[100%_0,_100%_calc(100%_-_25px),_calc(100%_-_25px)_100%,_0_100%,_0_0]">
                                     {/* Blog Post Meta */}
                                     <div className="mx-0 mt-0 mb-4">

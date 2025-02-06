@@ -7,6 +7,7 @@ import Tournament from "../src/pages/Tournament";
 import Pages from "../src/pages/Pages";
 import PagesShop from "../src/pages/PagesShop";
 import News from "../src/pages/News";
+import NewsBlog from "../src/pages/NewsBlog";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -20,6 +21,7 @@ root.render(
         <Route path="/Pages" element={<Pages />} />
         <Route path="/PagesShop" element={<PagesShop />} />
         <Route path="/News" element={<News />} />
+        <Route path="/NewsBlog" element={<NewsBlog />} />
       </Routes>
     </Router>
   </React.StrictMode>
