@@ -72,9 +72,10 @@ function BlogDetailsArea() {
                                     </p>
 
                                     {/* Blockquote Section */}
-                                    <blockquote class="relative text-xl text-white leading-normal italic mt-7 mb-7 mx-0 pl-20">
-                                        <p class="text-2xl font-semibold text-white leading-normal italic">
-                                            Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of printing and typeetting industry.
+                                    <blockquote class="relative flex flex-col md:flex-row items-center text-xl text-white leading-normal italic mt-7 mb-7 mx-0">
+                                        <i className='justify-start text-6xl md:mr-8 flaticon-quote-1 text-green'></i>
+                                        <p class="text-xl md:text-2xl text-center md:text-start font-semibold text-white leading-normal italic">
+                                          Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of printing and typeetting industry.
                                         </p>
                                     </blockquote>
 
@@ -162,7 +163,7 @@ function BlogDetailsArea() {
                                 </div>
 
                                 <div class="relative">
-                                    <span class="text-center md:text-base text-amber-400 font-semibold block uppercase tracking-wider mb-1">Written by</span>
+                                    <span class="text-center md:text-left text-amber-400 font-semibold block uppercase tracking-wider mb-1">Written by</span>
                                     <h4 class="tracking-wide text-center md:text-left text-xl text-white uppercase font-bold mb-3">
                                         <a class="duration-300 hover:text-green" href="#b">Kaceytron G.</a>
                                     </h4>
