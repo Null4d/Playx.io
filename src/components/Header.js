@@ -46,10 +46,9 @@ const Header = ({ toggleSidebar }) => {
                                                 </Link>
                                             </li>
                                             <li className="relative block list-none group">
-                                                <a className="text-base font-bold uppercase text-white block leading-none relative tracking-widest z-1 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-300 before:delay-0 before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green group-hover:text-green  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-minus-40px-"
-                                                    href="#section">
-                                                    contact
-                                                </a>
+                                                <Link to="/Contact" className="text-base font-bold uppercase text-white block leading-none relative tracking-widest z-1 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:-translate-y-2/4 before:rotate-0 before:opacity-0 before:transition-all before:duration-300 before:delay-0 before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green group-hover:text-green  group-hover:before:opacity-100 group-hover:before:-translate-y-2/4 group-hover:before:rotate-minus-40px-">
+                                                    CONTACT
+                                                </Link>
                                             </li>
 
                                         </ul>

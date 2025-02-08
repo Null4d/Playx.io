@@ -75,7 +75,7 @@ function BlogDetailsArea() {
                                     <blockquote class="relative flex flex-col md:flex-row items-center text-xl text-white leading-normal italic mt-7 mb-7 mx-0">
                                         <i className='justify-start text-6xl md:mr-8 flaticon-quote-1 text-green'></i>
                                         <p class="text-xl md:text-2xl text-center md:text-start font-semibold text-white leading-normal italic">
-                                          Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of printing and typeetting industry.
+                                            Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of printing and typeetting industry.
                                         </p>
                                     </blockquote>
 
