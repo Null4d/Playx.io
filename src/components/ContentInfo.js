@@ -4,14 +4,14 @@ function ContentInfo() {
     return (
         <>
             <section class="pt-[140px] bg-[#0f161b] pb-36 px-0">
-                <div class="container mx-auto">
-                    <div class="flex flex-wrap mx-minus-15px justify-center ">
-                        <div class="w-6/12 basis-6/12 relative px-4">
-                            <div class="relative z-1 mr-12">
-                                <h2 class="text-white relative">
-                                    <span class="outline-text absolute z-minus-2 bottom-[-20px] text-grey text-8xl uppercase font-bold block opacity-5">join us</span>
+                <div class="max-w-full full md:container mx-auto">
+                    <div class="flex flex-wrap flex-col lg:flex-row lg:mx-minus-15px justify-center ">
+                        <div class="w-full lg:w-6/12 basis-6/12 relative px-4 md:px-0">
+                            <div class="relative z-1 md:mr-12">
+                                <h2 class="text-white select-none relative">
+                                    <span class="outline-text absolute z-minus-2 bottom-[-20px] text-grey text-7xl md:text-8xl uppercase font-bold block opacity-5">join us</span>
                                 </h2>
-                                <h2 class="text-5xl uppercase font-extrabold mt-0 mb-6 text-white mx-0">CONTACT US AND FIND YOUR mykd</h2>
+                                <h2 class="text-4xl md:text-5xl uppercase font-extrabold mt-0 mb-6 text-white mx-0">CONTACT US AND FIND YOUR mykd</h2>
                                 <p class="  m-0 text-grey font-semibold text-lg">Axcepteur sint occaecat atat non proident, sunt culpa officia deserunt mollit anim id est labor umLor emdolor</p>
                                 <div class="mt-8 mb-0 mx-0">
                                     <div className="relative flex items-center mb-5">
@@ -34,7 +34,7 @@ function ContentInfo() {
                         </div>
                         {/* Contact Text */}
 
-                        <div class="w-6/12">
+                        <div class="w-full lg:w-6/12 px-4 md:px-0">
                             <form action="#">
                                 <p class="mt-0 mb-10 mx-0 text-grey font-semibold text-lg">
                                     Email address will not be published. Required fields are marked *
