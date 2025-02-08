@@ -1,7 +1,8 @@
 import React from 'react'
 import Header from '../components/Header';
 import ContactArea from '../components/ContactArea';
-import ContactInfo from '../components/ContentInfo';
+import ContactInfo from '../components/ContactInfo';
+import ContactMap from '../components/ContactMap';
 import Footer from '../components/Footer';
 
 function NewsBlog() {
@@ -10,6 +11,7 @@ function NewsBlog() {
             <Header />
             <ContactArea />
             <ContactInfo />
+            <ContactMap />
             <Footer />
         </>
     )
