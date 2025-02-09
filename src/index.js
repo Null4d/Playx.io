@@ -9,21 +9,24 @@ import PagesShop from "../src/pages/PagesShop";
 import News from "../src/pages/News";
 import NewsBlog from "../src/pages/NewsBlog";
 import Contact from "../src/pages/Contact";
+import SmoothScroll from './components/SmoothScroll';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/Tournament" element={<Tournament />} />
-        <Route path="/Pages" element={<Pages />} />
-        <Route path="/PagesShop" element={<PagesShop />} />
-        <Route path="/News" element={<News />} />
-        <Route path="/NewsBlog" element={<NewsBlog />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
+      <SmoothScroll>
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/Tournament" element={<Tournament />} />
+          <Route path="/Pages" element={<Pages />} />
+          <Route path="/PagesShop" element={<PagesShop />} />
+          <Route path="/News" element={<News />} />
+          <Route path="/NewsBlog" element={<NewsBlog />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </SmoothScroll>
     </Router>
-  </React.StrictMode>
+  </React.StrictMode >
 );
