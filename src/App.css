@@ -3,6 +3,10 @@
 @tailwind utilities;
 @import url('flaticon.css');
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 @font-face {
   font-family: "berlin_sans_fb_demibold";
@@ -147,7 +151,7 @@
   letter-spacing: 3px;
   color: rgb(15 22 27 / var(--tw-text-opacity));
   -webkit-clip-path: polygon(100% 0, 100% 65%, 89% 100%, 0 100%, 0 0);
-          clip-path: polygon(100% 0, 100% 65%, 89% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 65%, 89% 100%, 0 100%, 0 0);
 }
 
 .BlogBtn:hover {

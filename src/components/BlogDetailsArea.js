@@ -36,114 +36,114 @@ function BlogDetailsArea() {
     );
     return (
         <>
-            <section class="bg-[#0f161b] blog-details-area px-0 py-32">
-                <div class="max-w-2xl md:container mx-auto">
-                    <div class="flex flex-wrap mx-minus-15px  justify-center ">
+            <section className="bg-[#0f161b] blog-details-area px-0 py-32">
+                <div className="max-w-2xl mx-auto md:container">
+                    <div className="flex flex-wrap justify-center mx-minus-15px ">
                         {/* Mainbar */}
-                        <div class="w-full lg:w-4/5 xl:w-[69%] px-8 md:px-4">
+                        <div className="w-full lg:w-4/5 xl:w-[69%] px-8 md:px-4">
                             {/* Blog Post Container */}
-                            <div class="mt-0 mb-16 mx-0">
+                            <div className="mx-0 mt-0 mb-16">
                                 {/* Blog Post Image Section */}
-                                <div class="mt-0 mb-[35px] mx-0">
+                                <div className="mt-0 mb-[35px] mx-0">
                                     <img className='w-full' src={rcPost3} alt="rcPost3" />
                                 </div>
 
                                 {/* Blog Content Section */}
-                                <div class="p-0 border-none clip-path-none">
+                                <div className="p-0 border-none clip-path-none">
                                     {/* Post Meta Information (Author, Date, Comments) */}
-                                    <div class="mt-0 mb-4 mx-0">
-                                        <ul class="m-0 p-0 flex items-center flex-wrap gap-[10px_40px]">
-                                            <li class="flex items-center gap-1 uppercase text-sm font-bold tracking-wide text-grey">
-                                                By<a class="block text-grey duration-300 hover:text-green" href="#b">Admin</a>
+                                    <div className="mx-0 mt-0 mb-4">
+                                        <ul className="m-0 p-0 flex items-center flex-wrap gap-[10px_40px]">
+                                            <li className="flex items-center gap-1 text-sm font-bold tracking-wide uppercase text-grey">
+                                                By<a className="block duration-300 text-grey hover:text-green" href="#b">Admin</a>
                                             </li>
-                                            <li class="flex items-center gap-1 uppercase text-sm font-bold tracking-wide text-grey">📅 Aug 16, 2023</li>
-                                            <li class="flex items-center gap-1 uppercase text-sm font-bold tracking-wide">
-                                                <a class=" block text-grey duration-300 hover:text-green" href="#b">☁️ No comments</a>
+                                            <li className="flex items-center gap-1 text-sm font-bold tracking-wide uppercase text-grey">📅 Aug 16, 2023</li>
+                                            <li className="flex items-center gap-1 text-sm font-bold tracking-wide uppercase">
+                                                <a className="block duration-300 text-grey hover:text-green" href="#b">☁️ No comments</a>
                                             </li>
                                         </ul>
                                     </div>
 
                                     {/* Post Title */}
-                                    <h2 class="text-4xl tracking-wide mt-0 mb-6 mx-0 text-white uppercase font-bold">play to earn crypto games place</h2>
+                                    <h2 className="mx-0 mt-0 mb-6 text-4xl font-bold tracking-wide text-white uppercase">play to earn crypto games place</h2>
 
                                     {/* Post Description */}
-                                    <p class="font-semibold text-grey text-lg">
+                                    <p className="text-lg font-semibold text-grey">
                                         Excepteur sint occaecat atat non proident, sunt in culpa qui officia deserunt mollit anim id est labor umLor em ipsum dolor amet, consteur adiscing Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of  printing and typeetting industry. Lorem Ipsum has been the industry's standsaard sipiscing Duis elementum solliciin. Duis aute irure dolor in repderit in voluptate velit esse cillum dolorliquip ex ea commodo repderit in voluptate consequat nulla ullaorper.
                                     </p>
 
                                     {/* Blockquote Section */}
-                                    <blockquote class="relative flex flex-col md:flex-row items-center text-xl text-white leading-normal italic mt-7 mb-7 mx-0">
+                                    <blockquote className="relative flex flex-col items-center mx-0 text-xl italic leading-normal text-white md:flex-row mt-7 mb-7">
                                         <i className='justify-start text-6xl md:mr-8 flaticon-quote-1 text-green'></i>
-                                        <p class="text-xl md:text-2xl text-center md:text-start font-semibold text-white leading-normal italic">
+                                        <p className="text-xl italic font-semibold leading-normal text-center text-white md:text-2xl md:text-start">
                                             Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of printing and typeetting industry.
                                         </p>
                                     </blockquote>
 
                                     {/* Additional Paragraphs */}
-                                    <p class="font-semibold text-grey text-lg">
+                                    <p className="text-lg font-semibold text-grey">
                                         Axcepteur sint occaecat atat non proident, sunt in culpa qui officia deserunt mollit anim id est labor umLor em ipsum dolor amet, consteur adiscing Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of  printing and typeetting industry.
                                     </p>
-                                    <p class="font-semibold text-grey text-lg">
+                                    <p className="text-lg font-semibold text-grey">
                                         Simply dummy text of printing and typeetting industry. Lorem Ipsum has been the industry's standsaard sipiscing Duis elementum solliciin.Duis aute irure dolor in repderit.
                                     </p>
 
                                     {/* Subsection with Heading and Paragraph */}
-                                    <div class="text-2xl mt-10 mb-8 mx-0">
-                                        <h4 class="mt-0 mb-4 mx-0 text-white uppercase font-bold">nft games android no investment</h4>
-                                        <p class="font-semibold text-grey text-lg">
+                                    <div className="mx-0 mt-10 mb-8 text-2xl">
+                                        <h4 className="mx-0 mt-0 mb-4 font-bold text-white uppercase">nft games android no investment</h4>
+                                        <p className="text-lg font-semibold text-grey">
                                             Axcepteur sint occaecat atat non proident, sunt in culpa qui officia deserunt mollit anim id est labor umLor em ipsum dolor amet, consteur adiscing Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of  printing and typeetting industry. Lorem Ipsum has been the industry's standsaard sipiscing Duis elementum solliciin.Duis aute irure dolor in repderit.
                                         </p>
                                     </div>
 
                                     {/* Inner Blog Post Image */}
-                                    <div class="blog-details-inner-img mt-0 mb-8 mx-0">
+                                    <div className="mx-0 mt-0 mb-8 blog-details-inner-img">
                                         <img className='w-full' src={rcPost2} alt="rcPost2" />
                                     </div>
 
                                     {/* Final Paragraph */}
-                                    <p class="font-semibold text-grey text-lg">
+                                    <p className="text-lg font-semibold text-grey">
                                         Axcepteur sint occaecat atat non proident, sunt in culpa qui officia deserunt mollit anim id est labor umLor em ipsum dolor amet, consteur adiscing Duis elentum solliciin is yaugue euismods Nulla ullaorper. Ipsum is simply dummy text of  printing and typeetting industry.
                                     </p>
 
                                     {/* Blog Details Bottom Section (Tags & Share Options) */}
-                                    <div class="blog-details-bottom mt-16 mb-0 mx-0 pt-6 border-t-2 border-t-[#19222b] border-solid">
-                                        <div class="flex flex-wrap flex-col md:flex-row mx-minus-15px gap-y-4">
+                                    <div className="blog-details-bottom mt-16 mb-0 mx-0 pt-6 border-t-2 border-t-[#19222b] border-solid">
+                                        <div className="flex flex-col flex-wrap md:flex-row mx-minus-15px gap-y-4">
                                             {/* Tags Section */}
-                                            <div class="w-full md:w-6/12 basis-6/12 relative px-4">
-                                                <div class="flex items-center">
-                                                    <h5 class="text-base uppercase ml-0 mr-3 text-white my-0 font-bold">tags :</h5>
-                                                    <ul class="m-0 p-0 flex md:flex-wrap items-center">
-                                                        <li class="text-sm uppercase font-medium mr-2">
-                                                            <a class="inline-block text-grey font-semibold duration-300 hover:text-green" href="#b">Esports</a>,
+                                            <div className="relative w-full px-4 md:w-6/12 basis-6/12">
+                                                <div className="flex items-center">
+                                                    <h5 className="my-0 ml-0 mr-3 text-base font-bold text-white uppercase">tags :</h5>
+                                                    <ul className="flex items-center p-0 m-0 md:flex-wrap">
+                                                        <li className="mr-2 text-sm font-medium uppercase">
+                                                            <a className="inline-block font-semibold duration-300 text-grey hover:text-green" href="#b">Esports</a>,
                                                         </li>
-                                                        <li class="text-sm uppercase font-medium mr-2">
-                                                            <a class="inline-block text-grey font-semibold duration-300 hover:text-green" href="#b">Fantasy</a>,
+                                                        <li className="mr-2 text-sm font-medium uppercase">
+                                                            <a className="inline-block font-semibold duration-300 text-grey hover:text-green" href="#b">Fantasy</a>,
                                                         </li>
-                                                        <li class="text-sm uppercase font-medium mr-2">
-                                                            <a class="inline-block text-grey font-semibold duration-300 hover:text-green" href="#b">game</a>
+                                                        <li className="mr-2 text-sm font-medium uppercase">
+                                                            <a className="inline-block font-semibold duration-300 text-grey hover:text-green" href="#b">game</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
 
                                             {/* Social Share Section */}
-                                            <div class="w-6/12 basis-6/12 relative px-4">
-                                                <div class="justify-start md:justify-end flex items-center ">
-                                                    <h5 class="text-sm font-bold text-grey tracking-wider uppercase m-0 font-Poppins">share :</h5>
-                                                    <ul class="m-0 p-0  flex items-center">
-                                                        <li class="ml-4">
-                                                            <a class="block text-sm text-grey duration-300 hover:text-green" href="#b">
-                                                                <i class="flaticon-facebook"></i>
+                                            <div className="relative w-6/12 px-4 basis-6/12">
+                                                <div className="flex items-center justify-start md:justify-end ">
+                                                    <h5 className="m-0 text-sm font-bold tracking-wider uppercase text-grey font-Poppins">share :</h5>
+                                                    <ul className="flex items-center p-0 m-0">
+                                                        <li className="ml-4">
+                                                            <a className="block text-sm duration-300 text-grey hover:text-green" href="#b">
+                                                                <i className="flaticon-facebook"></i>
                                                             </a>
                                                         </li>
-                                                        <li class="ml-4">
-                                                            <a class="block text-sm text-grey duration-300 hover:text-green" href="#b">
-                                                                <i class="flaticon-twitter"></i>
+                                                        <li className="ml-4">
+                                                            <a className="block text-sm duration-300 text-grey hover:text-green" href="#b">
+                                                                <i className="flaticon-twitter"></i>
                                                             </a>
                                                         </li>
-                                                        <li class="ml-4">
-                                                            <a class="block text-sm text-grey duration-300 hover:text-green" href="#b">
-                                                                <i class="flaticon-twitch"></i>
+                                                        <li className="ml-4">
+                                                            <a className="block text-sm duration-300 text-grey hover:text-green" href="#b">
+                                                                <i className="flaticon-twitch"></i>
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -155,48 +155,48 @@ function BlogDetailsArea() {
                             </div>
 
                             {/* Author Information Section */}
-                            <div class="mb-16 rounded-8px overflow-hidden flex-col md:flex-row flex items-center border px-10 py-5 border-solid border-[#232a30] bg-[#182029] text-left">
-                                <div class="w-36 flex-[0_0_auto] mb-4 md:mb-0 mr-0 md:mr-[30px]">
+                            <div className="mb-16 rounded-8px overflow-hidden flex-col md:flex-row flex items-center border px-10 py-5 border-solid border-[#232a30] bg-[#182029] text-left">
+                                <div className="w-36 flex-[0_0_auto] mb-4 md:mb-0 mr-0 md:mr-[30px]">
                                     <a href="#b">
                                         <img className='object-cover h-36' src={BlogAvatar3} alt="BlogAvatar3" />
                                     </a>
                                 </div>
 
-                                <div class="relative">
-                                    <span class="text-center md:text-left text-amber-400 font-semibold block uppercase tracking-wider mb-1">Written by</span>
-                                    <h4 class="tracking-wide text-center md:text-left text-xl text-white uppercase font-bold mb-3">
-                                        <a class="duration-300 hover:text-green" href="#b">Kaceytron G.</a>
+                                <div className="relative">
+                                    <span className="block mb-1 font-semibold tracking-wider text-center uppercase md:text-left text-amber-400">Written by</span>
+                                    <h4 className="mb-3 text-xl font-bold tracking-wide text-center text-white uppercase md:text-left">
+                                        <a className="duration-300 hover:text-green" href="#b">Kaceytron G.</a>
                                     </h4>
-                                    <p class="text-base text-center md:text-left md:text-lg font-semibold text-grey m-0">
+                                    <p className="m-0 text-base font-semibold text-center md:text-left md:text-lg text-grey">
                                         Axcepteur sint occaecat atat non proident, sunt culpa officia deserunt mollit anim id est labor umLor emdolor.
                                     </p>
                                 </div>
                             </div>
 
                             {/* Comments Section */}
-                            <div class="relative">
-                                <h4 class="text-3xl tracking-wide mt-0 mb-10 mx-0 text-white uppercase font-bold">3 Comments</h4>
-                                <div class="mt-0 mb-[70px] mx-0">
-                                    <ul class="m-0 p-0 ">
+                            <div className="relative">Name
+                                <h4 className="mx-0 mt-0 mb-10 text-3xl font-bold tracking-wide text-white uppercase">3 Comments</h4>
+                                <div className="mt-0 mb-[70px] mx-0">
+                                    <ul className="p-0 m-0 ">
                                         {/* Comment Item 1 */}
                                         <li>
-                                            <div class="flex items-start flex-col md:flex-row mb-10 pb-10 border-b-[#19222b] border-b border-solid">
-                                                <div class="w-32 flex-[0_0_auto] mr-6 mb-5 md:mb-0">
+                                            <div className="flex items-start flex-col md:flex-row mb-10 pb-10 border-b-[#19222b] border-b border-solid">
+                                                <div className="w-32 flex-[0_0_auto] mr-6 mb-5 md:mb-0">
                                                     <img src={BlogAvatar1} alt="BlogAvatar1" />
                                                 </div>
 
-                                                <div class="grow block">
-                                                    <div class="overflow-hidden relative mb-2.5">
-                                                        <h6 class="text-lg flex justify-between tracking-wider mt-0 mb-1 text-white font-bold uppercase">
+                                                <div className="block grow">
+                                                    <div className="overflow-hidden relative mb-2.5">
+                                                        <h6 className="flex justify-between mt-0 mb-1 text-lg font-bold tracking-wider text-white uppercase">
                                                             John William
-                                                            <a href="#b" class="flex items-center text-lg tracking-widest duration-300 hover:text-green">
-                                                                <i class="flaticon-send rotate-[180deg] text-green mr-1"></i> Reply
+                                                            <a href="#b" className="flex items-center text-lg tracking-widest duration-300 hover:text-green">
+                                                                <i className="flaticon-send rotate-[180deg] text-green mr-1"></i> Reply
                                                             </a>
                                                         </h6>
-                                                        <span class="block uppercase text-base font-semibold text-grey">September 6, 2023</span>
+                                                        <span className="block text-base font-semibold uppercase text-grey">September 6, 2023</span>
                                                     </div>
 
-                                                    <p class="m-0 text-grey text-base md:text-lg font-semibold">
+                                                    <p className="m-0 text-base font-semibold text-grey md:text-lg">
                                                         Axcepteur sint occaecat atat non proident, sunt culpa officia deserunt mollit anim id est labor umLor emdolor uni enim ad minim veniam quis nostrud today.
                                                     </p>
                                                 </div>
@@ -205,23 +205,23 @@ function BlogDetailsArea() {
 
                                         {/* Comment Item 2 */}
                                         <li>
-                                            <div class="flex items-start flex-col md:flex-row mb-10 ml-0 md:ml-20 pb-10 border-b-[#19222b] border-b border-solid">
-                                                <div class="w-32 flex-[0_0_auto] mr-6 mb-5 md:mb-0">
+                                            <div className="flex items-start flex-col md:flex-row mb-10 ml-0 md:ml-20 pb-10 border-b-[#19222b] border-b border-solid">
+                                                <div className="w-32 flex-[0_0_auto] mr-6 mb-5 md:mb-0">
                                                     <img src={BlogAvatar2} alt="BlogAvatar2" />
                                                 </div>
 
-                                                <div class="grow block">
-                                                    <div class="overflow-hidden relative mb-2.5">
-                                                        <h6 class="text-lg flex justify-between tracking-wider mt-0 mb-1 text-white font-bold uppercase">
+                                                <div className="block grow">
+                                                    <div className="overflow-hidden relative mb-2.5">
+                                                        <h6 className="flex justify-between mt-0 mb-1 text-lg font-bold tracking-wider text-white uppercase">
                                                             Hanry Foul
-                                                            <a href="#b" class="flex items-center text-lg tracking-widest duration-300 hover:text-green">
-                                                                <i class="flaticon-send rotate-[180deg] text-green mr-1"></i> Reply
+                                                            <a href="#b" className="flex items-center text-lg tracking-widest duration-300 hover:text-green">
+                                                                <i className="flaticon-send rotate-[180deg] text-green mr-1"></i> Reply
                                                             </a>
                                                         </h6>
-                                                        <span class="block uppercase text-base font-semibold text-grey">September 6, 2023</span>
+                                                        <span className="block text-base font-semibold uppercase text-grey">September 6, 2023</span>
                                                     </div>
 
-                                                    <p class="m-0 text-grey text-base md:text-lg font-semibold">
+                                                    <p className="m-0 text-base font-semibold text-grey md:text-lg">
                                                         Axcepteur sint occaecat atat non proident, sunt culpa officia deserunt mollit anim id est labor umLor emdolor uni enim ad minim veniam quis nostrud today.
                                                     </p>
                                                 </div>
@@ -230,23 +230,23 @@ function BlogDetailsArea() {
 
                                         {/* Comment Item 3 */}
                                         <li>
-                                            <div class="flex items-start flex-col md:flex-row mb-10 pb-10 border-b-[#19222b] border-b border-solid">
-                                                <div class="w-32 flex-[0_0_auto] mr-6 mb-5 md:mb-0">
+                                            <div className="flex items-start flex-col md:flex-row mb-10 pb-10 border-b-[#19222b] border-b border-solid">
+                                                <div className="w-32 flex-[0_0_auto] mr-6 mb-5 md:mb-0">
                                                     <img src={BlogAvatar3} alt="BlogAvatar3" />
                                                 </div>
 
-                                                <div class="grow block">
-                                                    <div class="overflow-hidden relative mb-2.5">
-                                                        <h6 class="text-lg flex justify-between tracking-wider mt-0 mb-1 text-white font-bold uppercase">
+                                                <div className="block grow">
+                                                    <div className="overflow-hidden relative mb-2.5">
+                                                        <h6 className="flex justify-between mt-0 mb-1 text-lg font-bold tracking-wider text-white uppercase">
                                                             Luna Rose
-                                                            <a href="#b" class="flex items-center text-lg tracking-widest duration-300 hover:text-green">
-                                                                <i class="flaticon-send rotate-[180deg] text-green mr-1"></i> Reply
+                                                            <a href="#b" className="flex items-center text-lg tracking-widest duration-300 hover:text-green">
+                                                                <i className="flaticon-send rotate-[180deg] text-green mr-1"></i> Reply
                                                             </a>
                                                         </h6>
-                                                        <span class="block uppercase text-base font-semibold text-grey">September 6, 2023</span>
+                                                        <span className="block text-base font-semibold uppercase text-grey">September 6, 2023</span>
                                                     </div>
 
-                                                    <p class="m-0 text-grey text-base md:text-lg font-semibold">
+                                                    <p className="m-0 text-base font-semibold text-grey md:text-lg">
                                                         Axcepteur sint occaecat atat non proident, sunt culpa officia deserunt mollit anim id est labor umLor emdolor uni enim ad minim veniam quis nostrud today.
                                                     </p>
                                                 </div>
@@ -257,28 +257,28 @@ function BlogDetailsArea() {
                             </div>
 
                             {/* Comment Form Section */}
-                            <div class="relative">
-                                <h3 class="text-2xl tracking-wide mt-0 mb-5 text-white uppercase font-bold mx-0">Leave a Reply</h3>
-                                <form action="#">
-                                    <p class="mt-0 mb-10 mx-0 text-grey font-semibold text-lg">
+                            <div className="relative">
+                                <h3 className="mx-0 mt-0 mb-5 text-2xl font-bold tracking-wide text-white uppercase">Leave a Reply</h3>
+                                <form action="#">Name
+                                    <p className="mx-0 mt-0 mb-10 text-lg font-semibold text-grey">
                                         Email address will not be published. Required fields are marked *
                                     </p>
-                                    <div class="flex flex-wrap mx-minus-15px">
-                                        <div class="w-6/12 basis-6/12 relative px-4">
-                                            <div class="form-grp relative mt-0 mb-8 mx-0">
-                                                <input type="text" placeholder="Name *" class=" block w-full text-white transition-all outline-none duration-[0.3s] ease-[ease-out] delay-[0s] px-[25px] py-3.5 border-2 border-solid border-[#19222b] bg-transparent placeholder:opacity-80 focus:!border-[#19222b] focus:!ring-0 focus:!ring-[none] focus:border-solid focus:!outline-offset-0  focus:outline-0"></input>
+                                    <div className="flex flex-wrap mx-minus-15px">
+                                        <div className="relative w-6/12 px-4 basis-6/12">
+                                            <div className="relative mx-0 mt-0 mb-8 form-grp">
+                                                <input type="text" placeholder="Name *" className=" block w-full text-white transition-all outline-none duration-[0.3s] ease-[ease-out] delay-[0s] px-[25px] py-3.5 border-2 border-solid border-[#19222b] bg-transparent placeholder:opacity-80 focus:!border-[#19222b] focus:!ring-0 focus:!ring-[none] focus:border-solid focus:!outline-offset-0  focus:outline-0"></input>
                                             </div>
                                         </div>
 
-                                        <div class="w-6/12 basis-6/12 relative px-4">
-                                            <div class="form-grp relative mt-0 mb-8 mx-0">
-                                                <input type="email" placeholder="Email *" class=" block w-full text-white transition-all outline-none duration-[0.3s] ease-[ease-out] delay-[0s] px-[25px] py-3.5 border-2 border-solid border-[#19222b] bg-transparent placeholder:opacity-80 focus:!border-[#19222b] focus:!ring-0 focus:!ring-[none] focus:border-solid focus:!outline-offset-0  focus:outline-0"></input>
+                                        <div className="relative w-6/12 px-4 basis-6/12">
+                                            <div className="relative mx-0 mt-0 mb-8 form-grp">
+                                                <input type="email" placeholder="Email *" className=" block w-full text-white transition-all outline-none duration-[0.3s] ease-[ease-out] delay-[0s] px-[25px] py-3.5 border-2 border-solid border-[#19222b] bg-transparent placeholder:opacity-80 focus:!border-[#19222b] focus:!ring-0 focus:!ring-[none] focus:border-solid focus:!outline-offset-0  focus:outline-0"></input>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="form-grp relative mt-0 mb-8 mx-0">
-                                        <textarea name="message" placeholder="Comment *" class=" h-40 max-h-40 block w-full outline-none text-white transition-all duration-[0.3s] ease-[ease-out] delay-[0s] px-[25px] py-3.5 border-2 border-solid border-[#19222b] bg-transparent placeholder:opacity-80 focus:!border-[#19222b] focus:!ring-0 focus:!outline-[none] focus:!ring-[none] order-solid focus:!outline-offset-0  focus:outline-0"></textarea>
+                                    <div className="relative mx-0 mt-0 mb-8 form-grp">
+                                        <textarea name="message" placeholder="Comment *" className=" h-40 max-h-40 block w-full outline-none text-white transition-all duration-[0.3s] ease-[ease-out] delay-[0s] px-[25px] py-3.5 border-2 border-solid border-[#19222b] bg-transparent placeholder:opacity-80 focus:!border-[#19222b] focus:!ring-0 focus:!outline-[none] focus:!ring-[none] order-solid focus:!outline-offset-0  focus:outline-0"></textarea>
                                     </div>
 
                                     <button className='duration-300 BlogBtn' type="submit">Post Comment</button>

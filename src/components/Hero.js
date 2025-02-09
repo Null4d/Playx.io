@@ -20,13 +20,13 @@ function Hero() {
                 </h2>
 
                 <p className="m-0 text-2xl font-bold text-center text-white uppercase sm:text-3xl lg:text-start">
-                  VIDEO GAMES ONLINE 
+                  VIDEO GAMES ONLINE
                 </p>
 
                 <div className="mx-0 mt-8 mb-0 text-center lg:text-left">
                   <a className="tg-btn-1 group/greenBtn text-white px-12 py-4 relative z-1 inline-flex min-w-195px justify-center overflow-hidden px-49px py-0-875 text-center text-sm font-extrabold uppercase tracking-wide 
                   before:absolute before:left-0 before:top-2/4 before:z-1 before:h-[calc(100%+6px)] before:w-30px before:-translate-y-2/4 before:bg-white-arrow before:bg-cover before:bg-center before:bg-no-repeat 
-                  after:absolute after:right-0 after:top-2/4 after:z-1 after:h-[calc(100%+6px)] after:w-30px after:-translate-y-2/4 after:bg-white-arrow after:bg-cover after:bg-center after:bg-no-repeat after:-rotate-180 
+                  after:absolute after:right-0 after:top-2/4 after:z-1 after:h-[calc(100%+6px)] after:w-30px after:-translate-y-2/4 after:bg-white-arrow after:bg-cover after:bg-center after:bg-no-repeat after:rotate-[180deg]
                   "href="#b">
                     <p className="text-black after:z-minus-1 after:absolute after:left-0 after:top-0 after:h-full after:w-full after:border-t-2 after:border-b-2 after:border-solid after:border-y-white 
                     after:bg-green after:transition-all after:delay-0 after:duration-150 after:ease-out after:[clip-path:polygon(28px_0,calc(85%+2px)_0,100%_50%,calc(85%+1px)_100%,28px_100%,0%_50%)] after:group-hover/greenBtn:bg-green">
