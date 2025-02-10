@@ -21,7 +21,7 @@ const Header = ({ toggleSidebar }) => {
                                     <div className="flex justify-center navbar-wrap grow">
                                         <ul className="flex-row flex-wrap hidden navigation xl:flex xl:ml-16 2xl:ml-28">
                                             <li className="relative block list-none group">
-                                                <Link to="/" className="text-base font-bold uppercase block leading-none relative tracking-widest z-3 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:transition-all before:duration-150 before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green text-green before:opacity-100 before:-translate-y-2/4 before:rotate-[-40deg]">
+                                                <Link to="/Home" className="text-base font-bold uppercase block leading-none relative tracking-widest z-3 px-6 py-9 font-Barlow before:content-[''] before:absolute before:w-11 before:h-px before:transition-all before:duration-150 before:ease-[ease-out] before:delay-[0s] before:mx-auto before:my-0 before:top-2/4 before:inset-x-0 before:bg-green text-green before:opacity-100 before:-translate-y-2/4 before:rotate-[-40deg]">
                                                     HOME
                                                 </Link>
                                             </li>

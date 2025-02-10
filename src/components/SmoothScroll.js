@@ -9,7 +9,7 @@ const SmoothScroll = ({ children }) => {
 
     let current = 0;
     let target = 0;
-    const ease = 0.1; 
+    const ease = 0.1;
 
     const setBodyHeight = () => {
       document.body.style.height = `${container.getBoundingClientRect().height}px`;
@@ -43,7 +43,7 @@ const SmoothScroll = ({ children }) => {
       style={{
         width: '100%',
         height: '100%',
-        willChange: 'transform', 
+        willChange: 'transform',
       }}
     >
       {children}
