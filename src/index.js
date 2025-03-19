@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "../src/App";
+import Home from "../src/pages/Home";
 import About from "../src/pages/AboutUs";
 import Tournament from "../src/pages/Tournament";
 import Pages from "../src/pages/Pages";
@@ -17,6 +17,7 @@ root.render(
     <Router>
       <SmoothScroll>
         <Routes>
+          <Route path="/" element={<Home />} /> 
           <Route path="/Home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Tournament" element={<Tournament />} />
@@ -26,6 +27,7 @@ root.render(
           <Route path="/NewsBlog" element={<NewsBlog />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+
       </SmoothScroll>
     </Router>
   </React.StrictMode >

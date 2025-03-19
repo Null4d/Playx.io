@@ -1,4 +1,5 @@
 import React from 'react'
+import '../App.css';
 import Header from '../components/Header';
 import Bread from '../components/breadcrumb';
 import AboutArea from '../components/AboutArea';

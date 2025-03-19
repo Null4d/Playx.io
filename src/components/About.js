@@ -12,7 +12,7 @@ import aboutbg1 from '../img/others/about_img01.jpg';
 function About() {
     return (
         <>
-            <section className=" py-36">
+            <section className="py-36">
                 <div className="mx-auto md:max-w-1536 max-w-570px">
                     <div>
                         <div className="flex flex-wrap justify-center mx-4">

@@ -3,9 +3,26 @@
 @tailwind utilities;
 @import url('flaticon.css');
 
-html {
+#root {
+  overflow: hidden;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   scroll-behavior: smooth;
 }
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
 
 @font-face {
   font-family: "berlin_sans_fb_demibold";
@@ -302,3 +319,5 @@ html {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 3px;
 }
+
+
