@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Playx.io/static/css/main.a7d5b9f2.css",
-    "main.js": "/Playx.io/static/js/main.bd1d84e4.js",
+    "main.js": "/Playx.io/static/js/main.74e94dde.js",
     "static/media/gallery03.jpg": "/Playx.io/static/media/gallery03.d2db28726aa7a4b0eb1b.jpg",
     "static/media/services_img04.jpg": "/Playx.io/static/media/services_img04.122ca7164a432ae3b4a8.jpg",
     "static/media/services_img03.jpg": "/Playx.io/static/media/services_img03.2fd88ee48779d53e32a7.jpg",
@@ -80,10 +80,10 @@
     "static/media/tournamentbg.svg": "/Playx.io/static/media/tournamentbg.6da68ad67e5b8e728cfe.svg",
     "static/media/white.svg": "/Playx.io/static/media/white.8ff86d86475806aef66e.svg",
     "main.a7d5b9f2.css.map": "/Playx.io/static/css/main.a7d5b9f2.css.map",
-    "main.bd1d84e4.js.map": "/Playx.io/static/js/main.bd1d84e4.js.map"
+    "main.74e94dde.js.map": "/Playx.io/static/js/main.74e94dde.js.map"
   },
   "entrypoints": [
     "static/css/main.a7d5b9f2.css",
-    "static/js/main.bd1d84e4.js"
+    "static/js/main.74e94dde.js"
   ]
 }
