@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "../src/pages/Home";
 import About from "../src/pages/AboutUs";
 import Tournament from "../src/pages/Tournament";
@@ -17,7 +17,7 @@ root.render(
     <Router>
       <SmoothScroll>
         <Routes>
-          <Route path="/" element={<Home />} /> 
+          <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/Tournament" element={<Tournament />} />
