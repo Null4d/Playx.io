@@ -1,0 +1,34 @@
+name: Bundle Size Check
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+jobs:
+  size-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      actions: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check bundle size
+        uses: q1sh101/build-size-diff@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          build-command: npm run build
+          dist-path: dist
+          budget-max-increase-kb: 50
+          warn-above-kb: 100
+          fail-above-kb: 200
+          comment-mode: always
