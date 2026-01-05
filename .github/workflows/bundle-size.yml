@@ -27,7 +27,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           build-command: npm run build
-          dist-path: dist
+          dist-path: build
           budget-max-increase-kb: 50
           warn-above-kb: 100
           fail-above-kb: 200
