@@ -23,7 +23,7 @@ jobs:
           node-version: '20'
 
       - name: Check bundle size
-        uses: q1sh101/build-size-diff@master
+        uses: q1sh101/build-size-diff@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           build-command: npm run build
